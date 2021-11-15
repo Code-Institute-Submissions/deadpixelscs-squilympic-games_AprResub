@@ -27,7 +27,6 @@ h1 {
     color: #ffffff
 }
 
-
 /* nav links */
 
 #menu {
@@ -60,4 +59,14 @@ h1 {
 .active {
     border-bottom: 1px solid #2e0000;
 }
+
+
+/* Hero image */
+
+#hero-image {
+    height: 1730px;
+    width: 100%;
+    background: url(../images/hero-image-1920x1080px.png) no-repeat center center;
+}
+
 
