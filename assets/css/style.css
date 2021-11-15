@@ -8,11 +8,56 @@
 
 body {
     font-family: 'Press Start 2P', cursive, sans-serif;
-    text-align: right;
+    text-align: left;
     font-weight: 500;
-    color: #8f0000;
+    color: #ffffff;
     background-image: url("../images/page-background-1920x1080px.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
+/*  headings and logo */
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff
+}
+
+
+/* nav links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    margin-top: -6%;
+}
+
+#menu,
+#logo {
+    line-height: 100px;
+    margin-left: 2%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fffb00;
+}
+
+.active {
+    border-bottom: 1px solid #2e0000;
+}
+
