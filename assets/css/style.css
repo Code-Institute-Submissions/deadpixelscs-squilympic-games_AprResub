@@ -6,3 +6,13 @@
     border: none;
 }
 
+body {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-align: right;
+    font-weight: 500;
+    color: #8f0000;
+    background-image: url("../images/page-background-1920x1080px.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
