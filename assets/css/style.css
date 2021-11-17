@@ -27,10 +27,17 @@ h1 {
     color: #ffffff
 }
 
+h2 {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff
+}
+
 /* nav links */
 
 #menu {
-    font-size: 100%;
+    font-size: 100px;
     letter-spacing: 4px;
     margin-top: -6%;
 }
@@ -69,4 +76,20 @@ h1 {
     background: url(../images/Background.png) no-repeat center center;
 }
 
+/* Footer */
+
+footer {
+    height: 100px;
+}
+
+#join-our-community-header h2 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
