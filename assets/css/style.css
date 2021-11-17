@@ -70,7 +70,7 @@ h2 {
 
 /* Hero image */
 
-#hero-image {
+#background-image {
     height: 2345px;
     width: 100%;
     background: url(../images/Background.png) no-repeat center center;
@@ -82,14 +82,39 @@ footer {
     height: 100px;
 }
 
-#join-our-community-header h2 {
+#join-our-community h2 {
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 7%;
+    margin-top: -20%;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 100px;
+    font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.social-networks {
+    margin-top: -30%;
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 400%;
+    margin: 10%;
+    padding: 5%;
+    padding-bottom: 5%;
+}
+
+/* social network icons */
+
+
+.fa-facebook {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(238, 255, 0);
 }
 
