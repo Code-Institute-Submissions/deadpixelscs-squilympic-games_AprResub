@@ -10,6 +10,9 @@ body {
     font-family: 'Press Start 2P', cursive, sans-serif;
     text-align: left;
     font-weight: 500;
+    min-height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
     color: #ffffff;
     background-image: url("../images/background-dots.png");
     background-repeat: no-repeat;
@@ -71,10 +74,11 @@ h2 {
 /* Hero image */
 
 #background-image {
-    height: 2345px;
+    height: 2550px;
     width: 100%;
     background: url(../images/background.png) no-repeat center center;
 }
+
 
 /* Footer */
 
@@ -158,3 +162,10 @@ footer {
     color: rgb(238, 255, 0);
 }
 
+/* Add bar at top nav */
+
+#nav-bar {
+    height: 100px;
+    width: 100%;
+    color: #fffb00;
+}
