@@ -71,12 +71,19 @@ h2 {
 }
 
 
-/* Hero image */
+/* Background image */
 
 #background-image {
-    height: 2550px;
+    height: 4000px;
     width: 100%;
     background: url(../images/background.png) no-repeat center center;
+}
+
+/* here image */
+
+#hero-image {
+    background: url(../images/hero-image-1920x1080px.png);
+    position: absolute;
 }
 
 
