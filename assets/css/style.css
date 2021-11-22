@@ -34,6 +34,7 @@ h1 {
 h2 {
     font-family: 'Press Start 2P', cursive, sans-serif;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 2px;
     color: #ffffff
 }
@@ -41,7 +42,7 @@ h2 {
 /* nav links */
 
 #menu {
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 4px;
     margin-top: -6%;
 }
@@ -90,18 +91,23 @@ h2 {
 
 /* hero image */
 
-#hero-image {
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    margin-top: -375%;
-    background: url(../images/sq-hero-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(100%);
-}
 
+.controls{
+    position: relative;
+    }
+    .hero-image {
+      max-width: 100%;
+      min-width: none;
+      overflow: hidden;
+    }
+    .image_container{
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+    }
 
 /* Footer */
 
@@ -110,10 +116,10 @@ footer {
 }
 
 #join-our-community h2 {
-    text-align: left;
-    margin-top: -15%;
-    margin-bottom: -15.3%;
-    margin-left: 15%;
+    text-align: center;
+    margin-top: -13%;
+    margin-bottom: 0px%;
+    margin-left: 0px;
     line-height: 200%;
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-size: 30px;
@@ -123,17 +129,17 @@ footer {
 }
 
 .social-networks {
-    font-size: 104%;
-    margin-left: -5%;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 0;
     padding: 10%;
     margin-top: -26%;
 
 }
 
 .social-networks li {
-    display: inline;
     -webkit-font-smoothing: antialiased;
-    display: table;
+    display: inline;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -141,10 +147,11 @@ footer {
 }
 
 .social-networks i {
-    font-size: 300%;
-    margin-left: 1%;
-    padding: 2%;
-    margin-top: -3%;
+    font-size: 250%;
+    padding: -50%;
+    text-align: center;
+    margin-top: 33%;
+    margin-left: 5%;
 }
 
 
@@ -153,36 +160,37 @@ footer {
 
 .fab {
     -webkit-font-smoothing: antialiased;
-    display: table;
+    display: inline;
+    letter-spacing: 20%;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 
 .fa-facebook {
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: #110e22;
 }
 
 .fa-instagram {
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: #110e22;
 }
 
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: #110e22;
 }
 
 .fa-bug {
     text-align: center;
     text-decoration: none;
-    color: rgb(238, 255, 0);
+    color: #110e22;
 }
 
 /* Add bar at top nav */
