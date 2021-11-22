@@ -14,13 +14,14 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     color: #ffffff;
-    background-image: url("../images/background-dots.png");
+    background-color: tomato;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 /*  headings and logo */
+
 
 
 h1 {
@@ -76,14 +77,29 @@ h2 {
 #background-image {
     height: 4000px;
     width: 100%;
+    margin-top: -18%;
     background: url(../images/background.png) no-repeat center center;
 }
 
-/* here image */
+#background-footer {
+    height: 4000px;
+    width: 100%;
+    margin-top: -64%;
+    background-color: #110e22;
+}
+
+/* hero image */
 
 #hero-image {
-    background: url(../images/hero-image-1920x1080px.png);
     position: absolute;
+    width: 100%;
+    height: 60vh;
+    margin-top: -375%;
+    background: url(../images/sq-hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(100%);
 }
 
 
