@@ -89,13 +89,14 @@ document.addEventListener('DOMContentLoaded', () => {
 const grid = document.querySelector('.grid');
 var cardsChosen = [];
 var cardsChosenId = [];
+var cardsWon = [];
 
 //start creating the game board
 
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img');
-        card.setAttribute('src', 'assets/images/white-10f0px.png');
+        card.setAttribute('src', 'assets/images/white-100px.png');
         card.setAttribute('data-id', i);
         // card.addEventListener('click' slide tuning over)
         grid.appendChild(card);
@@ -103,6 +104,23 @@ function createBoard() {
 }
 
 // check for matching pairs
+function checkForMatch() {
+    var cards = document.querySelectorAll('img');
+    const optionOneId = cardsChosenId[0];
+    const optionTwoId = cardsChosenId[1];
+    if (cardsChosen[0] === cardsChosen [1]) {
+        alert('You are closer to survival!!!');
+        cards[optionOneId].setAttribute('src', 'images/white-100px.png');
+        cards[optionTwoId].setAttribute('src', 'images/white-100px.png');
+        cardsWon.push(cardsChosen);
+    } else {
+        cards[optionOneId].setAttribute('src','images/eliminated-100px.png');
+        cards[optionTwoId].setAttribute('src','images/eliminated-100px.png');
+        alert('Ha, Ha, Ha, say goodbye to your family');
+    }
+    cardsChosen = [];
+    cardsChsoenId = [];
+}
 
 //flip the card over
 function flipCard() {
