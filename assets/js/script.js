@@ -93,11 +93,18 @@ const grid = document.querySelector('.grid');
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img');
-        card.setAttribute('src', 'assets/images/white-100px.png');
+        card.setAttribute('src', 'images/white-100px.png');
         card.setAttribute('data-id', i);
         // card.addEventListener('click' slide tuning over)
         grid.appendChild(card);
     }
+}
+
+// check for matching pairs
+
+//flip the card over
+function flipCard() {
+    var cardId = this.getAttribute('data-id');
 }
 
 createBoard();
