@@ -87,13 +87,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const grid = document.querySelector('.grid');
+var cardsChosen = [];
+var cardsChosenId = [];
 
 //start creating the game board
 
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img');
-        card.setAttribute('src', 'images/white-100px.png');
+        card.setAttribute('src', 'assets/images/white-10f0px.png');
         card.setAttribute('data-id', i);
         // card.addEventListener('click' slide tuning over)
         grid.appendChild(card);
@@ -105,6 +107,12 @@ function createBoard() {
 //flip the card over
 function flipCard() {
     var cardId = this.getAttribute('data-id');
+    cardsChosen.push(cardArray[cardId].name);
+    cardsChosenId.push(cardId);
+    this.setAttribute('src', cardArray[cardId].img)
+    if (cardsChosen.length === 2) {
+        setTimeout(checkForMatch, 800)
+    }
 }
 
 createBoard();

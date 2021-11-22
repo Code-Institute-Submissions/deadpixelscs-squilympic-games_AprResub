@@ -206,6 +206,6 @@ footer {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 400px;
 }
