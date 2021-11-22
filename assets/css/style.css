@@ -200,3 +200,12 @@ footer {
     width: 100%;
     color: #fffb00;
 }
+
+/* Add grid styling */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 500px;
+}
