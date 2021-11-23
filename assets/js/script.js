@@ -2,97 +2,18 @@ function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
     for (let i = 0; i < cards.length; i++) {
         let card = document.createElement('img')
-        card.setAttribute('src', 'assets/images/tile-reverse-100px.png')
+        card.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png')
         card.addEventListener('click', () => {
             if (cards[i].picked === true) {
                 return;
             }
 
-    //create an array for a pair of all 10 image slides
+            //flip the card over
+            card.setAttribute('src','assets/images/cards/ + cards[i].name' +'-100px.png');
 
-    //const cardArray = [
-        {
-            name: '456',
-            img: 'assets/images/player-456-100px.png'
-        },
-        {
-            name: '456',
-            img: 'assets/images/player-456-100px.png'
-        },
-        {
-            name: 'front man',
-            img: 'assets/images/front-man-100px.png'
-        },
-        {
-            name: 'front man',
-            img: 'assets/images/front-man-100px.png'
-        },
-        {
-            name: 'square bad guy',
-            img: 'assets/images/square-bad-guy-100px.png'
-        },
-        {
-            name: 'square bad guy',
-            img: 'assets/images/square-bad-guy-100px.png'
-        },
-        {
-            name: 'player 001',
-            img: 'assets/images/player-001-100px.png'
-        },
-        {
-            name: 'player 001',
-            img: 'assets/images/player-001-100px.png'
-        },
-        {
-            name: 'circle bad guy',
-            img: 'assets/images/circle-bad-guy-100px.png'
-        },
-        {
-            name: 'circle bad guy',
-            img: 'assets/images/circle-bad-guy-100px.png'
-        },
-        {
-            name: 'player 067',
-            img: 'assets/images/player-067-100px.png'
-        },
-        {
-            name: 'player 067',
-            img: 'assets/images/player-067-100px.png'
-        },
-        {
-            name: 'triangle bad guy',
-            img: 'assets/images/triangle-bad-guy-100px.png'
-        },
-        {
-            name: 'triangle bad guy',
-            img: 'assets/images/triangle-bad-guy-100px.png'
-        },
-        {
-            name: 'circle',
-            img: 'assets/images/circle-100px.png'
-        },
-        {
-            name: 'circle',
-            img: 'assets/images/circle-100px.png'
-        },
-        {
-            name: 'triangle',
-            img: 'assets/images/triangle-100px.png'
-        },
-        {
-            name: 'triangle',
-            img: 'assets/images/triangle-100px.png'
-        },
-        {
-            name: 'square',
-            img: 'assets/images/square-100px.png'
-        },
-        {
-            name: 'square',
-            img: 'assets/images/square-100px.png'
-        }
-    ]
 
+
+    
     //cardArray.sort(() => 0.5 - Math.random())
 
     //const grid = document.querySelector('.grid')
@@ -103,7 +24,7 @@ function createBoard(cards, main) {
 
     //start creating the game board
 
-    //function createBoard() {
+    function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img')
             card.setAttribute('src', 'assets/images/tile-reverse-100px.png')
@@ -113,8 +34,8 @@ function createBoard(cards, main) {
         }
     }
 
-    // check for matching pairs
-    //function checkForMatch() {
+    //check for matching pairs
+    function checkForMatch() {
         const cards = document.querySelectorAll('img')
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
@@ -144,16 +65,5 @@ function createBoard(cards, main) {
         }
     }
 
-    //flip the card over
-    function flipCard() {
-        var cardId = this.getAttribute('data-id')
-        cardsChosen.push(cardArray[cardId].name)
-        cardsChosenId.push(cardId)
-        this.setAttribute('src', cardArray[cardId].img)
-        if (cardsChosen.length ===3) {
-            setTimeout(checkForMatch, 500)
-        }
-    }
-
-    //createBoard()
+    createBoard()
 })
