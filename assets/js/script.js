@@ -11,10 +11,17 @@ function createBoard(cards, main) {
             //flip the card over
             card.setAttribute('src','assets/images/cards/ + cards[i].name' +'-100px.png');
 
-            //When any card is selected do this
+            //When any card is selected do this to show card
             if (main.selectedCard === null) {
                 main.selectedCardElement = card;
                 main.selectedCard = i;
+            }
+            //Not clicking on the same card twice
+            else if (main,selectedCard !==i) {
+                var firstCard = cards[main.selectedCard];
+                var secondCard = cards[i]
+                var secondCardElement = card[i];
+
             }
 
 
