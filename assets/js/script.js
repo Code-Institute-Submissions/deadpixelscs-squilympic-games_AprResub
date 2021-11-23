@@ -119,7 +119,8 @@ function checkForMatch() {
         alert('Ha, Ha, Ha, say goodbye to your family');
     }
     cardsChosen = [];
-    cardsChsoenId = [];
+    cardsChosenId = [];
+    resultDisplay;
 }
 
 //flip the card over
