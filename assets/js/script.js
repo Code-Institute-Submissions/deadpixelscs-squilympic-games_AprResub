@@ -1,8 +1,16 @@
-document.addEventListener('DOMContentLoaded', () => {
+function createBoard(cards, main) {
+    const grid = document.querySelector('.grid');
+    for (let i = 0; i < cards.length; i++) {
+        let card = document.createElement('img')
+        card.setAttribute('src', 'assets/images/tile-reverse-100px.png')
+        card.addEventListener('click', () => {
+            if (cards[i].picked === true) {
+                return;
+            }
 
     //create an array for a pair of all 10 image slides
 
-    const cardArray = [
+    //const cardArray = [
         {
             name: '456',
             img: 'assets/images/player-456-100px.png'
@@ -85,17 +93,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ]
 
-    cardArray.sort(() => 0.5 - Math.random())
+    //cardArray.sort(() => 0.5 - Math.random())
 
-    const grid = document.querySelector('.grid')
-    const resultDisplay = document.querySelector('#result')
-    let cardsChosen = []
-    let cardsChosenId = []
-    let cardsWon = []
+    //const grid = document.querySelector('.grid')
+    //const resultDisplay = document.querySelector('#result')
+    //let cardsChosen = []
+    //let cardsChosenId = []
+    //let cardsWon = []
 
     //start creating the game board
 
-    function createBoard() {
+    //function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img')
             card.setAttribute('src', 'assets/images/tile-reverse-100px.png')
@@ -106,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // check for matching pairs
-    function checkForMatch() {
+    //function checkForMatch() {
         const cards = document.querySelectorAll('img')
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
@@ -147,5 +155,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    createBoard()
+    //createBoard()
 })
