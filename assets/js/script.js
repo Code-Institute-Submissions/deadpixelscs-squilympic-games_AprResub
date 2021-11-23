@@ -11,6 +11,12 @@ function createBoard(cards, main) {
             //flip the card over
             card.setAttribute('src','assets/images/cards/ + cards[i].name' +'-100px.png');
 
+            //When any card is selected do this
+            if (main.selectedCard === null) {
+                main.selectedCardElement = card;
+                main.selectedCard = i;
+            }
+
 
 
     
