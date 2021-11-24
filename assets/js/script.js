@@ -29,6 +29,14 @@ function createBoard(cards, main) {
                     //Flip card to white if correct match
                     flipWhite(main.selectedCardElement, secondCardElement, main);
                 }
+                //Flip the card back when wrong
+                else {
+                    flipBack(main.selectedCardElement, secondCardElement, main);
+                }
+
+
+
+
                 })
 
             }
