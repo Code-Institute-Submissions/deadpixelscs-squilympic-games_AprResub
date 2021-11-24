@@ -106,6 +106,26 @@ function newRound(difficulty) {
     function getCards() {
         var cards = [
             {name: 'triangle', picked:false },
+            {name: 'square', picked:false },
+            {name: 'circle', picked:false },
+            {name: 'triangle-bad-guy', picked:false },
+            {name: 'square-bad-guy', picked:false },
+            {name: 'circle-bad-guy', picked:false },
+            {name: 'palyer-001', picked:false },
+            {name: 'player-067', picked:false },
+            {name: 'player-456', picked:false },
+            {name: 'front-man', picked:false },
+            // Second set
+            {name: 'triangle', picked:false },
+            {name: 'square', picked:false },
+            {name: 'circle', picked:false },
+            {name: 'triangle-bad-guy', picked:false },
+            {name: 'square-bad-guy', picked:false },
+            {name: 'circle-bad-guy', picked:false },
+            {name: 'palyer-001', picked:false },
+            {name: 'player-067', picked:false },
+            {name: 'player-456', picked:false },
+            {name: 'front-man', picked:false },
         ];
 
         var shuffled = shuffleCards(cards);
