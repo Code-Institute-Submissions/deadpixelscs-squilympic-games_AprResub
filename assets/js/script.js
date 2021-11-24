@@ -20,7 +20,15 @@ function createBoard(cards, main) {
             else if (main,selectedCard !==i) {
                 var firstCard = cards[main.selectedCard];
                 var secondCard = cards[i]
-                var secondCardElement = card[i];
+                var secondCardElement = card;
+                //clicking the other card of the pair
+                if (firstCard.name === secondCard.name) {
+                    firstCard.picked = true;
+                    secondCard.picked = true;
+                    main.picked++;
+                    
+                }
+                })
 
             }
 
