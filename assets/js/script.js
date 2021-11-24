@@ -131,3 +131,15 @@ function newRound(difficulty) {
         var shuffled = shuffleCards(cards);
         return shuffled;
     }
+
+function shuffleCards(cards) {
+    var currentIndex = cards.length;
+    var randomIndex;
+
+    while (currentIndex != 0) {
+        randomindex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
+}
+
+return cards;
