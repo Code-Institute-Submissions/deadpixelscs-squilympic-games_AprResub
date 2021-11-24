@@ -19,7 +19,7 @@ function createBoard(cards, main) {
             //Not clicking on the same card twice
             else if (main,selectedCard !==i) {
                 var firstCard = cards[main.selectedCard];
-                var secondCard = cards[i]
+                var secondCard = cards[i];
                 var secondCardElement = card;
                 //clicking the other card of the pair
                 if (firstCard.name === secondCard.name) {
@@ -33,14 +33,39 @@ function createBoard(cards, main) {
                 else {
                     flipBack(main.selectedCardElement, secondCardElement, main);
                 }
+                //Either way, clean up
+                main.selectedCard = null;
+                main.selectedCardElement = null;
+                main.attempts++;
+
+                //Win?
+                if (main.picked === (cards.length /2)) {
+                    alert('Congratulations! It only took you ' + main.attempts + 'tries');
+                }
+            }
+            // Failing?
+            if (main.attempts === main.maxAttempts) {
+                alert('you lose. you picked:' + main.picked);
+                clearRound();
+                newRound();
             }
 
-            });
-            grid.appendChild(card);
+        });
+        grid.appendChild(card);
+    }
+}
+
+function startGame() {
+    const difficulties = document.getElementsByName('difficulty');
+    let difficulty = 40;
+    for (let i = 0; i <difficulties.length; i++) {
+        if (difficulties[i].checked) {
+            difficulty = parseInt(difficulties[i].value);
         }
     }
+}
 
-    function newRound(difficulty) {
+function newRound(difficulty) {
         var main = {
             selectedCard: null,
             selectedCardElement: null,
@@ -52,4 +77,3 @@ function createBoard(cards, main) {
         var cards = getCards();
         createBoard(cards, main); 
     }
-}
