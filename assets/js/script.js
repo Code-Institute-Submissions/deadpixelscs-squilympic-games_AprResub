@@ -2,14 +2,14 @@ function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
     for (let i = 0; i < cards.length; i++) {
         let card = document.createElement('img')
-        card.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png')
+        card.setAttribute('src', 'images/cards/tile-reverse-100px.png')
         card.addEventListener('click', () => {
             if (cards[i].picked === true) {
                 return;
             }
 
             //flip the card over
-            card.setAttribute('src','assets/images/cards/ + cards[i].name' +'-100px.png');
+            card.setAttribute('src','images/cards/ + cards[i].name' +'-100px.png');
 
             //When any card is selected do this to show card
             if (main.selectedCard === null) {
@@ -63,6 +63,14 @@ function startGame() {
             difficulty = parseInt(difficulties[i].value);
         }
     }
+    clearRound();
+    newRound(difficulty);
+    return false;
+}
+
+function clearRound() {
+    const grid = document.querySelector('.grid');
+    grid.innerHTML ="";
 }
 
 function newRound(difficulty) {
@@ -77,3 +85,9 @@ function newRound(difficulty) {
         var cards = getCards();
         createBoard(cards, main); 
     }
+    
+    function flipBack(first,second, main) {
+        setTimeout(() => {
+            first.setAttribute('src', 'images/cards/tile-reverse-100px.png');
+            first.click = undefined;
+        }, main.timeout)
