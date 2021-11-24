@@ -37,6 +37,18 @@ function createBoard(cards, main) {
 
             });
             grid.appendChild(card);
-
         }
+    }
+
+    function newRound(difficulty) {
+        var main = {
+            selectedCard: null,
+            selectedCardElement: null,
+            attempts: 0,
+            maxAttempts: difficulty,
+            picked: 0,
+            timeout: 500
+        }; 
+        var cards = getCards();
+        createBoard(cards, main); 
     }
