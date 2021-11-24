@@ -90,4 +90,24 @@ function newRound(difficulty) {
         setTimeout(() => {
             first.setAttribute('src', 'images/cards/tile-reverse-100px.png');
             first.click = undefined;
-        }, main.timeout)
+        }, main.timeout);
+    }
+
+    function flipWhite(first, second, main) {
+        setTimeout(() => {
+            first.setAttribute('src', 'images/cards/white-100px.png');
+            first.click = undefined;
+
+            second.setAttribute('src', 'images/cards/white-100px.png');
+            second.click = undefined;
+        }, main.timeout);
+    }
+
+    function getCards() {
+        var cards = [
+            {name: 'triangle', picked:false },
+        ];
+
+        var shuffled = shuffleCards(cards);
+        return shuffled;
+    }
