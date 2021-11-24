@@ -33,67 +33,10 @@ function createBoard(cards, main) {
                 else {
                     flipBack(main.selectedCardElement, secondCardElement, main);
                 }
-
-
-
-
-                })
-
             }
 
+            });
+            grid.appendChild(card);
 
-
-    
-    //cardArray.sort(() => 0.5 - Math.random())
-
-    //const grid = document.querySelector('.grid')
-    //const resultDisplay = document.querySelector('#result')
-    //let cardsChosen = []
-    //let cardsChosenId = []
-    //let cardsWon = []
-
-    //start creating the game board
-
-    function createBoard() {
-        for (let i = 0; i < cardArray.length; i++) {
-            const card = document.createElement('img')
-            card.setAttribute('src', 'assets/images/tile-reverse-100px.png')
-            card.setAttribute('data-id', i)
-            card.addEventListener('click', flipCard)
-            grid.appendChild(card)
         }
     }
-
-    //check for matching pairs
-    function checkForMatch() {
-        const cards = document.querySelectorAll('img')
-        const optionOneId = cardsChosenId[0]
-        const optionTwoId = cardsChosenId[1]
-
-        if(optionOneId == optionTwoId) {
-            cards[optionOneId].setAttribute('src', 'assets/images/tile-reverse-100px.png')
-            cards[optionTwoId].setAttribute('src', 'assets/images/tile-reverse-100px.png')
-            alert('You have clicked this tile already!')
-        }
-        else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('You are closer to survival!!!')
-            cards[optionOneId].setAttribute('src', 'assets/images/white-100px.png')
-            cards[optionTwoId].setAttribute('src', 'assets/images/white-100px.png')
-            cards[optionOneId].removeEventListener('click', 'flipCard')
-            cards[optionTwoId].removeEventListener('click', 'flipCard')
-            cardsWon.push(cardsChosen)
-        } else {
-            cards[optionOneId].setAttribute('src', 'assets/images/tile-reverse-100px.png')
-            cards[optionTwoId].setAttribute('src', 'assets/images/tile-reverse-100px.png')
-            alert('Ha, Ha, Ha, say goodbye to your family')
-        }
-        cardsChosen = []
-        cardsChosenId = []
-        resultDisplay.textContent = cardsWon.length
-        if (cardsWon.length === cardArray.length/2) {
-            resultDisplay.textContent = 'You survived!!!!!...for now ;)'
-        }
-    }
-
-    createBoard()
-})
