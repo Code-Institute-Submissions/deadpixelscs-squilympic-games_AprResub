@@ -26,7 +26,8 @@ function createBoard(cards, main) {
                     firstCard.picked = true;
                     secondCard.picked = true;
                     main.picked++;
-                    
+                    //Flip card to white if correct match
+                    flipWhite(main.selectedCardElement, secondCardElement, main);
                 }
                 })
 
