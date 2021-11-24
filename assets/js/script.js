@@ -52,3 +52,4 @@ function createBoard(cards, main) {
         var cards = getCards();
         createBoard(cards, main); 
     }
+}
