@@ -1,55 +1,57 @@
+
+
 function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
     for (let i = 0; i < cards.length; i++) {
-        let card = document.createElement('img')
-        card.setAttribute('src', 'images/cards/tile-reverse-100px.png')
+        let card = document.createElement('img');
+        card.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
         card.addEventListener('click', () => {
             if (cards[i].picked === true) {
                 return;
             }
+            
+            // flip the card
+            card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-100px.png');
 
-            //flip the card over
-            card.setAttribute('src','images/cards/ + cards[i].name' +'-100px.png');
-
-            //When any card is selected do this to show card
+            // Any card selected?
             if (main.selectedCard === null) {
                 main.selectedCardElement = card;
                 main.selectedCard = i;
             }
-            //Not clicking on the same card twice
-            else if (main,selectedCard !==i) {
+            // We're not clicking the same card twice are we?
+            else if (main.selectedCard !== i) {
                 var firstCard = cards[main.selectedCard];
                 var secondCard = cards[i];
                 var secondCardElement = card;
-                //clicking the other card of the pair
+                // Did we click the other card of the pair?
                 if (firstCard.name === secondCard.name) {
-                    firstCard.picked = true;
+                    firstCard.picked = true;                    
                     secondCard.picked = true;
                     main.picked++;
-                    //Flip card to white if correct match
+                    // We did! Well done! Flip to white
                     flipWhite(main.selectedCardElement, secondCardElement, main);
                 }
-                //Flip the card back when wrong
                 else {
+                    // Nope, picked the wrong one. Flip back
                     flipBack(main.selectedCardElement, secondCardElement, main);
                 }
-                //Either way, clean up
+                // Either way, clean up
                 main.selectedCard = null;
                 main.selectedCardElement = null;
                 main.attempts++;
 
-                //Win?
-                if (main.picked === (cards.length /2)) {
-                    alert('Congratulations! It only took you ' + main.attempts + 'tries');
+                // Did we win?
+                if (main.picked === (cards.length / 2)) {
+                    alert('congrats! only took you ' + main.attempts + ' tries');
                 }
             }
-            // Failing?
+            // Are we done failing yet?
             if (main.attempts === main.maxAttempts) {
-                alert('you lose. you picked:' + main.picked);
+                alert('you lose. you picked: ' + main.picked);
                 clearRound();
                 newRound();
             }
-
+            
         });
         grid.appendChild(card);
     }
@@ -58,7 +60,7 @@ function createBoard(cards, main) {
 function startGame() {
     const difficulties = document.getElementsByName('difficulty');
     let difficulty = 40;
-    for (let i = 0; i <difficulties.length; i++) {
+    for (let i = 0; i < difficulties.length; i++) {
         if (difficulties[i].checked) {
             difficulty = parseInt(difficulties[i].value);
         }
@@ -70,76 +72,77 @@ function startGame() {
 
 function clearRound() {
     const grid = document.querySelector('.grid');
-    grid.innerHTML ="";
+    grid.innerHTML = "";
 }
 
 function newRound(difficulty) {
-        var main = {
-            selectedCard: null,
-            selectedCardElement: null,
-            attempts: 0,
-            maxAttempts: difficulty,
-            picked: 0,
-            timeout: 500
-        }; 
-        var cards = getCards();
-        createBoard(cards, main); 
-    }
-    
-    function flipBack(first,second, main) {
-        setTimeout(() => {
-            first.setAttribute('src', 'images/cards/tile-reverse-100px.png');
-            first.click = undefined;
-        }, main.timeout);
-    }
+    var main = {
+        selectedCard: null,
+        selectedCardElement: null,
+        attempts: 0,
+        maxAttempts: difficulty,
+        picked: 0,
+        timeout: 500
+    };
+    var cards = getCards();
+    createBoard(cards, main);
+}
 
-    function flipWhite(first, second, main) {
-        setTimeout(() => {
-            first.setAttribute('src', 'images/cards/white-100px.png');
-            first.click = undefined;
+function flipBack(first, second, main) {
+    setTimeout(() => {
+        first.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
+        second.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
+    }, main.timeout);
+}
 
-            second.setAttribute('src', 'images/cards/white-100px.png');
-            second.click = undefined;
-        }, main.timeout);
-    }
+function flipWhite(first, second, main) {
+    setTimeout(() => {
+        first.setAttribute('src', 'assets/images/cards/white-100px.png');
+        first.click = undefined;
 
-    function getCards() {
-        var cards = [
-            {name: 'triangle', picked:false },
-            {name: 'square', picked:false },
-            {name: 'circle', picked:false },
-            {name: 'triangle-bad-guy', picked:false },
-            {name: 'square-bad-guy', picked:false },
-            {name: 'circle-bad-guy', picked:false },
-            {name: 'palyer-001', picked:false },
-            {name: 'player-067', picked:false },
-            {name: 'player-456', picked:false },
-            {name: 'front-man', picked:false },
-            // Second set
-            {name: 'triangle', picked:false },
-            {name: 'square', picked:false },
-            {name: 'circle', picked:false },
-            {name: 'triangle-bad-guy', picked:false },
-            {name: 'square-bad-guy', picked:false },
-            {name: 'circle-bad-guy', picked:false },
-            {name: 'palyer-001', picked:false },
-            {name: 'player-067', picked:false },
-            {name: 'player-456', picked:false },
-            {name: 'front-man', picked:false },
-        ];
+        second.setAttribute('src', 'assets/images/cards/white-100px.png');
+        second.click = undefined;
+    }, main.timeout);
+}
 
-        var shuffled = shuffleCards(cards);
-        return shuffled;
-    }
+function getCards() {
+    var cards = [
+        { name: 'triangle', picked: false  },
+        { name: 'square', picked: false  },
+        { name: 'circle', picked: false  },
+        { name: 'triangle-bad-guy', picked: false  },
+        { name: 'square-bad-guy', picked: false  },
+        { name: 'circle-bad-guy', picked: false  },
+        { name: 'player-001', picked: false  },
+        { name: 'player-067', picked: false  },
+        { name: 'player-456', picked: false  },
+        { name: 'front-man', picked: false  },
+        // Second set
+        { name: 'triangle', picked: false  },
+        { name: 'square', picked: false  },
+        { name: 'circle', picked: false  },
+        { name: 'triangle-bad-guy', picked: false  },
+        { name: 'square-bad-guy', picked: false  },
+        { name: 'circle-bad-guy', picked: false  },
+        { name: 'player-001', picked: false  },
+        { name: 'player-067', picked: false  },
+        { name: 'player-456', picked: false  },
+        { name: 'front-man', picked: false  },
+    ];
+
+    var shuffled = shuffleCards(cards);
+    return shuffled;
+}
 
 function shuffleCards(cards) {
     var currentIndex = cards.length;
     var randomIndex;
 
     while (currentIndex != 0) {
-        randomindex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
-}
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
+    }
 
-return cards;
+    return cards;
+}
