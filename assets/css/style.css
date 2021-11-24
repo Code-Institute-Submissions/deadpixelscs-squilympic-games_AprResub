@@ -100,13 +100,13 @@ h2 {
       min-width: none;
       overflow: hidden;
     }
-    .image_container{
-      height: 80%;
+    .image-container{
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
       position: absolute;
-      top: 0;
+      top: 100px;
     }
 
 /* Footer */
