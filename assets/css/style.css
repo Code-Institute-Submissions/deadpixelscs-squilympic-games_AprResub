@@ -10,9 +10,6 @@ body {
     font-family: 'Press Start 2P', cursive, sans-serif;
     text-align: left;
     font-weight: 500;
-    min-height: 100vh;
-    max-width: 1920px;
-    margin: 0 auto;
     color: #ffffff;
     background-color: tomato;
     background-repeat: no-repeat;
@@ -80,17 +77,10 @@ h2 {
 /* Background image */
 
 #background-image {
-    height: 4000px;
+    height: 2000px;
     width: 100%;
     margin-top: -18%;
     background: url(../images/background.png) no-repeat center center;
-}
-
-#background-footer {
-    height: 1500px;
-    width: 100%;
-    margin-top: -64%;
-    background-color: #110e22;
 }
 
 /* hero image */
@@ -132,17 +122,29 @@ h2 {
   }
   
 
+/* Rules section */
+
+#rules h2 {
+    margin-top: 5%;
+    margin-bottom: 203%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 95px;
+    letter-spacing: 2px;
+    color: #91ff00;
+}
+      
+
+
 /* Footer */
 
 footer {
     height: 100px;
 }
 
-#join-our-community h2 {
+#join-our-community h3 {
     text-align: center;
-    margin-top: -13%;
-    margin-bottom: 0px%;
-    margin-left: 0px;
+    margin-top: 20%;
     line-height: 200%;
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-size: 30px;
@@ -156,7 +158,7 @@ footer {
     text-align: center;
     margin-left: 0;
     padding: 10%;
-    margin-top: -26%;
+    margin-top: -200%;
 
 }
 
@@ -173,7 +175,7 @@ footer {
     font-size: 250%;
     padding: -50%;
     text-align: center;
-    margin-top: 33%;
+    margin-top: -200%;
     margin-left: 5%;
 }
 
@@ -233,3 +235,20 @@ footer {
     width: 400px;
 }
 
+/* Add better background positioning */
+
+button {
+    font-size: 82px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    line-height: 108px;
+    width: 37%;
+    height: 25%;
+    top: 80%;
+    left: 45%;
+    margin-top: -250px;
+    margin-left: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
