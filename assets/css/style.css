@@ -122,19 +122,6 @@ h2 {
   }
   
 
-/* Rules section */
-
-#rules h2 {
-    margin-top: 20%;
-    margin-bottom: 203%;
-    text-align: center;
-    font-size: 100px;
-    line-height: 95px;
-    letter-spacing: 2px;
-    color: #91ff00;
-}
-    
-
 /* Footer */
 
 footer {
@@ -253,7 +240,8 @@ button {
     position: absolute;
 }
 
-.difficulty-container input {
-    margin-top: -20%;
+#difficulty-container {
+    margin-top: 50%;
+    position:absolute;
 
 }
