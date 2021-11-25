@@ -11,15 +11,14 @@ body {
     text-align: left;
     font-weight: 500;
     color: #ffffff;
-    background-color: rgb(184, 0, 61);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background: linear-gradient( 
+        270deg, rgb(229 0 86 / 72%) 35%, rgba(0 255 217 / 0.95) 100% );
 }
 
 /*  headings and logo */
-
-
 
 h1 {
     font-family: 'Press Start 2P', cursive, sans-serif;
@@ -44,15 +43,14 @@ h2 {
     margin-top: -5.5%;
 }
 
-#menu,
 #logo {
-    line-height: 100px;
-    margin-left: 2%;
+    font-family: 'Bungee', cursive, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
-#logo {
-    font-size: 12px;
-}
 
 #menu li {
     float: right;
@@ -126,7 +124,7 @@ h2 {
 /* Rules section */
 
 #rules h2 {
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 203%;
     text-align: center;
     font-size: 100px;
