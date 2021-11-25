@@ -11,20 +11,10 @@ body {
     text-align: left;
     font-weight: 500;
     color: #ffffff;
-    background-color: rgb(185, 17, 73);
+    background-color: rgb(184, 0, 61);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-/* Background image */
-
-#background-image {
-    height: 2000px;
-    width: 100%;
-    margin-top: 40%;
-    background: url(../images/background.png) no-repeat center center;
-    position: absolute;
 }
 
 /*  headings and logo */
@@ -46,17 +36,6 @@ h2 {
     color: #ffffff
 }
 
-/* Rules section */
-
-#rules h2 {
-    text-align: center;
-    font-size: 100px;
-    line-height: 95px;
-    letter-spacing: 2px;
-    color: #91ff00;
-    margin-top: 41%;
-}
-      
 /* nav links */
 
 #menu {
@@ -94,6 +73,16 @@ h2 {
     border-bottom: 1px solid #2e0000;
 }
 
+
+/* Background image */
+
+#background-image {
+    height: 2000px;
+    width: 100%;
+    margin-top: 38%;
+    background: url(../images/background.png) no-repeat center center;
+    position: absolute;
+}
 
 /* hero image */
 
@@ -134,7 +123,18 @@ h2 {
   }
   
 
+/* Rules section */
 
+#rules h2 {
+    margin-top: 5%;
+    margin-bottom: 203%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 95px;
+    letter-spacing: 2px;
+    color: #91ff00;
+}
+      
 
 
 /* Footer */
@@ -159,7 +159,7 @@ footer {
     text-align: center;
     margin-left: 0;
     padding: 10%;
-    margin-top: 20%;
+    margin-top: -200%;
 
 }
 
@@ -198,25 +198,25 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-bug {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 /* Add bar at top nav */
@@ -253,5 +253,3 @@ button {
     align-items: center;
     position: absolute;
 }
-
-
