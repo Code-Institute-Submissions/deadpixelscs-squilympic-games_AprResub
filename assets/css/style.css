@@ -145,7 +145,7 @@ footer {
 
 #join-our-community h3 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: -60%;
     line-height: 200%;
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-size: 30px;
@@ -157,9 +157,9 @@ footer {
 .social-networks {
     font-size: 150%;
     text-align: center;
-    margin-left: 0;
+    margin-left: 0%;
     padding: 10%;
-    margin-top: -200%;
+    margin-top: 0%;
 
 }
 
