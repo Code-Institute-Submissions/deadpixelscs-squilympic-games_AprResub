@@ -28,18 +28,6 @@ h1 {
     color: #01012b
 }
 
-h2 {
-    font-size: 28px;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 45px;
-    margin-top: -101%;
-    margin-left: 2%;
-    color: #ffffff;
-}
-
 /* nav links */
 
 #menu {
@@ -51,10 +39,10 @@ h2 {
 #logo {
     position: absolute;
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 27px;
+    font-size: 23px;
     text-align: center;
-    top: 18px;
-    left: 49%;
+    top: 22px;
+    left: 29%;
     transform: translate(-50%);
 }
 
@@ -82,7 +70,7 @@ h2 {
 #background-image {
     height: 2000px;
     width: 106%;
-    margin-top: 29%;
+    margin-top: 27%;
     margin-left: -6%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
@@ -93,7 +81,8 @@ h2 {
     position: relative;
     }
     .hero-image {
-        max-width: 100%;
+        max-width: 64%;
+        margin-left: -37%;
         overflow: hidden;
     }
     .image-container{
@@ -123,6 +112,54 @@ h2 {
       }
   }
 
+
+#difficulty-container {
+    position: absolute;
+    font-size: 7px;
+    font-family: 'Bungee', cursive, sans-serif;
+    letter-spacing: 2px;
+    margin-top: -499%;
+    margin-left: 2%;
+}
+
+button {
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-weight: bold;
+    line-height: 70px;
+    width: 45%;
+    height: 8%;
+    top: 0;
+    right: 48%;
+    margin-top: 78%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    margin-top: -438%;
+    margin-left: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 8px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: -88%;
+    margin-left: -42%;
+    color: #ffffff;
+}
+
 /* Footer */
 
 footer {
@@ -141,12 +178,12 @@ footer {
 }
 
 .social-networks {
-    font-size: 108%;
+    font-size: 57%;
+    letter-spacing: -12px;
     text-align: center;
-    margin-left: -2%;
+    margin-left: -54%;
     padding: 10%;
-    margin-top: 58%;
-}
+    margin-top: 72%;
 
 .social-networks li {
     display: inline;
@@ -199,302 +236,8 @@ footer {
 }
 
 
+
 /* Add grid styling */
-
-.grid {
-    margin-top: -402%;
-    margin-left: 10%;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 300px;
-}
-
-/* Add better background positioning */
-
-button {
-    position: absolute;
-    font-size: 22px;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-weight: bold;
-    line-height: 70px;
-    width: 50%;
-    height: 6%;
-    top: 0;
-    right: 24%;
-    margin-top: 156%;
-    /* margin-left: -265px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#difficulty-container {
-    position: absolute;
-    font-size: 16px;
-    font-family: 'Bungee', cursive, sans-serif;
-    letter-spacing: 1px;
-    margin-top: -481%;
-    margin-left: 9%;
-    color: rgb(0 255 217);
-
-}
-
-
-@media only screen and (min-width: 414px) {
-
-    #difficulty-container {
-        font-size: 19px;
-        margin-top: -426%;
-        margin-left: 8%;
-    }
-
-    button {
-        margin-top: 142%;
-        margin-right: 1%;
-    }
-
-    .grid {
-        margin-top: -364%;
-        margin-left: 13%;
-    }
-
-    h2 {
-        margin-top: -89%;
-        margin-left: 1%;
-    }
-
-    .social-networks {
-        font-size: 95%;
-        margin-left: -3%;
-        margin-top: 47%;
-    }
-
-}
-
-@media only screen and (min-width: 689px) {
-
-    #logo {
-        font-size: 29px;
-        top: 3.8%;
-    }
-
-    #difficulty-container {
-        font-size: 32px;
-        margin-top: -253%;
-        margin-left: 11%;
-    }
-
-    button {
-        width: 31%;
-        margin-top: 104%;
-        margin-right: 10%;
-    }
-
-    .grid {
-        margin-top: -208%;
-        margin-left: 6.5%;
-        height: 298px;
-        width: 600px;
-    }
-
-    h2 {
-        margin-top: -47%;
-        margin-left: 1%;
-    }
-
-    .social-networks {
-        font-size: 100%;
-        margin-left: -8%;
-        margin-top: 37%;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) {
-
-    #logo {
-        font-size: 44px;
-        top: 25px;
-        margin-left: 2%;
-    }
-
-    #difficulty-container {
-        font-size: 42px;
-        margin-top: -169%;
-        margin-left: 18%;
-    }
-
-    button {
-        top: -21%;
-        right: 24%;
-    }
-
-    .grid {
-        margin-top: -135%;
-        margin-left: 21%;px
-    }
-
-    h2 {
-        font-size: 37px;
-        line-height: 72px;
-        margin-top: -34%;
-        margin-left: -14px;
-    }
-
-    .social-networks {
-        font-size: 150%;
-        margin-top: 20%;
-        margin-left: -3%;
-    }
-
-}
-
-@media only screen and (min-width: 1280px) {
-
-    #logo {
-        font-size: 44px;
-        top: 25px;
-        margin-left: -1%;
-    }
-
-    #difficulty-container {
-        font-size: 37px;
-        margin-top: -134%;
-        margin-left: 24%;
-    }
-
-    button {
-        top: -25%;
-        right: 27%;
-    }
-
-    .grid {
-        margin-top: -110%;
-        margin-left: 23%;
-        }
-
-    h2 {
-        margin-top: -27%;
-    }
-
-    .social-networks {
-        margin-top: 18%;
-        margin-left: -9%;
-    }
-
-}
-
-@media only screen and (min-width: 1600px) {
-
-    #background-image {
-        margin-top: 39%;
-    }
-
-    #difficulty-container {
-        font-size: 45px;
-        margin-top: -110%;
-        margin-left: 27%;
-    }
-
-    button {
-        width: 18%;
-        height: 8%;
-        top: -28%;
-        right: 32%;
-    }
-
-    .grid {
-        margin-top: -87%;
-        margin-left: 30%;
-    }
-
-    h2 {
-        margin-top: -21%;
-    }
-
-    .social-networks {
-        margin-top: 14%;
-    }
-
-}
-
-@media only screen and (max-width: 1700px) {
-
-    .hero-image {
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    #background-image {
-        margin-top: 37%;
-        margin-left: -3%;
-
-    }
-    #difficulty-container {
-        font-size: 61px;
-        margin-top: -103%;
-        margin-left: 23%;
-    }
-
-    button {
-        width: 15%;
-        top: -34%;
-        right: 33%;
-    }
-
-    .grid {
-        margin-top: -85%;
-        margin-left: 32%;
-    }
-}
-
-@media only screen and (max-width: 1792px) {
-
-    .hero-image {
-        max-width: 102%;
-        margin-left: 6%;
-    }
-
-    #background-image {
-        max-width: 94%;
-        margin-left: 6%;
-        margin-top: 35%;
-    }
-
-    #difficulty-container {
-        font-size: 61px;
-        margin-top: -98%;
-        margin-left: 23%;
-    }
-
-    button {
-        width: 15%;
-        top: -43%;
-        right: 32%;
-    }
-    .grid {
-        margin-top: -85%;
-        margin-left: 36%;
-    }
-
-    h2 {
-        margin-left: 6%;
-    }
-
-    .social-networks {
-        margin-top: 14%;
-        margin-left: 2%;
-    }
-}
-
-
-
-
 
 
 
