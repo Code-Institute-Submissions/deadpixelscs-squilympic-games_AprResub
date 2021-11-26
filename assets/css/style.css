@@ -254,7 +254,7 @@ button {
     }
 
     button {
-        margin-top: 138%;
+        margin-top: 142%;
         margin-right: 1%;
     }
 
@@ -272,6 +272,45 @@ button {
         font-size: 95%;
         margin-left: -3%;
         margin-top: 47%;
+    }
+
+}
+
+@media only screen and (min-width: 689px) {
+
+    #logo {
+        font-size: 29px;
+        top: 3.8%;
+    }
+
+    #difficulty-container {
+        font-size: 32px;
+        margin-top: -253%;
+        margin-left: 11%;
+    }
+
+    button {
+        width: 31%;
+        margin-top: 104%;
+        margin-right: 10%;
+    }
+
+    .grid {
+        margin-top: -208%;
+        margin-left: 6.5%;
+        height: 298px;
+        width: 600px;
+    }
+
+    h2 {
+        margin-top: -47%;
+        margin-left: 1%;
+    }
+
+    .social-networks {
+        font-size: 100%;
+        margin-left: -8%;
+        margin-top: 37%;
     }
 
 }
