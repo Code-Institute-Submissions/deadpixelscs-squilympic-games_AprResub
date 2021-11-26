@@ -331,4 +331,50 @@ button {
     }
 
 }
+
+@media only screen and (min-width: 1024px) {
+
+    #logo {
+        font-size: 44px;
+        top: 48px;
+    }
+
+    #difficulty-container {
+        font-size: 53px;
+        margin-top: -174%;
+        margin-left: 9%;
+    }
+
+    #background-image {
+        margin-top: 41%;
+    }
+
+    button {
+        font-size: 41px;
+        width: 40%;
+        height: 9%;
+        top: -159px;
+        right: 18%;
+    }
+
+    .grid {
+        margin-top: -139%;
+        margin-left: 18%;
+    }
+
+    h2 {
+        font-size: 53px;
+        line-height: 72px;
+        margin-top: -34%;
+        margin-left: -14px;
+    }
+
+    .social-networks {
+        font-size: 218%;
+        margin-top: 17%;
+        margin-left: -8%;
+    }
+
+}
+
  
