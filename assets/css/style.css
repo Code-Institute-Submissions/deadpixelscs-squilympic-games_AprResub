@@ -423,6 +423,38 @@ button {
 
 }
 
+@media only screen and (max-width: 1700px) {
+
+    .hero-image {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    #background-image {
+        margin-top: 37%;
+        margin-left: -3%;
+
+    }
+    #difficulty-container {
+        font-size: 61px;
+        margin-top: -103%;
+        margin-left: 23%;
+    }
+
+    button {
+        width: 15%;
+        top: -34%;
+        right: 33%;
+    }
+
+    .grid {
+        margin-top: -85%;
+        margin-left: 32%;
+    }
+}
+
+
+
 
 
 
