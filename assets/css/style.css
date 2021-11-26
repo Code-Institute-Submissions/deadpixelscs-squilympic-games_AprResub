@@ -82,7 +82,7 @@ h2 {
 #background-image {
     height: 2000px;
     width: 106%;
-    margin-top: 46%;
+    margin-top: 29%;
     margin-left: -2%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
@@ -228,7 +228,7 @@ button {
     height: 6%;
     top: 0;
     right: 25%;
-    margin-top: 94%;
+    margin-top: 156%;
     /* margin-left: -265px; */
     display: flex;
     justify-content: center;
@@ -241,14 +241,14 @@ button {
     font-size: 18px;
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 1px;
-    margin-top: -541%;
+    margin-top: -514%;
     margin-left: 5%;
     color: rgb(0 255 217);
 
 }
 
 .grid {
-    margin-top: -425%;
+    margin-top: -407%;
     margin-left: 9%;
 }
 

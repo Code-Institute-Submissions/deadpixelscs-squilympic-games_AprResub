@@ -114,7 +114,6 @@ function getCards() {
         { name: 'player-001', picked: false  },
         { name: 'player-067', picked: false  },
         { name: 'player-456', picked: false  },
-        { name: 'front-man', picked: false  },
         // Second set
         { name: 'triangle', picked: false  },
         { name: 'square', picked: false  },
@@ -125,7 +124,6 @@ function getCards() {
         { name: 'player-001', picked: false  },
         { name: 'player-067', picked: false  },
         { name: 'player-456', picked: false  },
-        { name: 'front-man', picked: false  },
     ];
 
     var shuffled = shuffleCards(cards);
