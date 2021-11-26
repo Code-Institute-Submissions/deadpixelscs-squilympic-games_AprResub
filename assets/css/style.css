@@ -59,6 +59,21 @@ h2 {
     color: #ffffff;
 }
 
+p {
+    font-size: 7px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 15px;
+    margin-top: -317%;
+    margin-right: 3%;
+    margin-left: 4%;
+    color: rgb(237, 100, 100);
+}
+
+
+
 #logo {
     position: absolute;
     font-family: 'Bungee', cursive, sans-serif;
@@ -102,9 +117,9 @@ h2 {
 
 #background-image {
     height: 2000px;
-    width: 106%;
+    width: 110%;
     margin-top: 30%;
-    margin-left: -6%;
+    margin-left: -4%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
@@ -114,8 +129,7 @@ h2 {
     position: relative;
     }
     .hero-image {
-        max-width: 102%;
-        margin-left: -1%;
+        max-width: 100%;
         overflow: hidden;
     }
     .image-container{
@@ -265,6 +279,32 @@ footer {
 }
 
 /* media queries */
+
+@media only screen and (min-width: 375px) {
+    p { 
+        margin-top: -424%;
+        margin-left: 3%;
+    }
+
+    #difficulty-container {
+        font-size: 16px;
+        margin-top: -456%;
+        margin-left: 6%;
+    }
+
+    button {
+        margin-top: 155%;
+        margin-right: -21%;
+    }
+
+    .social-networks {
+        font-size: 95%;
+        margin-left: -4%;
+        margin-top: 85%;
+    }
+
+
+
 @media only screen and (min-width: 414px) {
 
     #difficulty-container {
@@ -301,9 +341,10 @@ footer {
 
     #difficulty-container {
         font-size: 22px;
-        margin-top: -353%;
-        margin-left: 7%;
+        margin-top: -341%;
+        margin-left: 8%;
     }
+
 
     button {
         margin-top: 128%;
