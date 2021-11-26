@@ -54,7 +54,6 @@ h2 {
     margin-top: -146.4%;
 }
 
-
 #menu li {
     float: right;
     list-style-type: none;
@@ -74,7 +73,6 @@ h2 {
     border-bottom: 1px solid #2e0000;
 }
 
-
 /* Background image */
 
 #background-image {
@@ -85,7 +83,6 @@ h2 {
 }
 
 /* hero image */
-
 
 .controls{
     position: absolute;
@@ -164,8 +161,6 @@ footer {
     margin-left: 5%;
 }
 
-
-
 /* social network icons */
 
 .fab {
@@ -176,7 +171,6 @@ footer {
     text-rendering: auto;
     line-height: 2;
 }
-
 
 .fa-facebook {
     text-align: center;
