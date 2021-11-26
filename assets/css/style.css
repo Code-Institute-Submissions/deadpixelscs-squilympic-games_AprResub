@@ -453,6 +453,49 @@ button {
     }
 }
 
+@media only screen and (max-width: 1792px) {
+
+    .hero-image {
+        max-width: 102%;
+        margin-left: 6%;
+    }
+
+    #background-image {
+        max-width: 94%;
+        margin-left: 6%;
+        margin-top: 35%;
+    }
+
+    #difficulty-container {
+        font-size: 61px;
+        margin-top: -98%;
+        margin-left: 23%;
+    }
+
+    button {
+        width: 15%;
+        top: -43%;
+        right: 32%;
+    }
+    .grid {
+        margin-top: -85%;
+        margin-left: 36%;
+    }
+
+    h2 {
+        margin-left: 6%;
+    }
+
+    .social-networks {
+        margin-top: 14%;
+        margin-left: 2%;
+    }
+}
+
+
+
+
+
 
 
 
