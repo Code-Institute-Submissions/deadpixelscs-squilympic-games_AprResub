@@ -457,61 +457,6 @@ footer {
 
 }
 
-@media only screen and (max-width: 1792px) {
-
-    #logo {
-        font-size: 81px;
-        top: 25px;
-        margin-left: -1%;
-    }
-
-    .hero-image {
-        max-width: 88%;
-        margin-top: 3%;
-        margin-left: 6%;
-    }
-
-    #background-image {
-        max-width: 88%;
-        margin-left: 9%;
-        margin-top: 35%;
-    }
-
-    #difficulty-container {
-        font-size: 61px;
-        margin-top: -98%;
-        margin-left: 23%;
-    }
-
-    button {
-        width: 13%;
-        height: 6%;
-        margin-top: 84%;
-        right: 57.5%;
-    }
-    .grid {
-        margin-top: -85%;
-        margin-left: 35%;
-    }
-
-    h2 {
-        margin-left: 12%;
-    }
-
-    .social-networks {
-        margin-top: 14%;
-        margin-left: -1%;
-    }
-
-
-
-
-
-
-
-
-
-
 
 
 
