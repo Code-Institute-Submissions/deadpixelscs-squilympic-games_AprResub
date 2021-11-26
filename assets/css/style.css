@@ -47,11 +47,13 @@ h2 {
     margin-top: -5.5%;
 }
 
+
 #logo {
+    position: absolute;
     font-family: 'Bungee', cursive, sans-serif;
     font-size: 25px;
     text-align: left;
-    position: absolute;
+
     margin-left: 5%;
     margin-top: -146.4%;
 }
@@ -84,24 +86,30 @@ h2 {
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
-/* hero image */
+/* hero */
 
 .controls{
-    position: absolute;
+    position: relative;
+    }
+    .hero-image {
+      max-width: 100%;
+      min-width: none;
+      overflow: hidden;
     }
     .image-container{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 100px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 100px;
+    
 
-              /* animates zoom in on loading page banner */
+      /* animates zoom in on loading page banner */
       animation-name: hero-zoom;
-      animation-duration: 1s;
-      animation-delay: 4ms;
-      animation-fill-mode:inherit;
+      animation-duration: 5s;
+      animation-delay: 30ms;
+      animation-fill-mode: forwards;
   }
   
   /* creates zoom in for hero image */
@@ -113,14 +121,7 @@ h2 {
       to {
           transform: scale(1);
       }
-    }
-
-    .hero-image {
-        max-width: 100%;
-        padding-bottom: 68%;
-        margin-top: -208%;
-        overflow: hidden;
-    }
+  }
 
 /* Footer */
 
@@ -248,4 +249,14 @@ button {
 .grid {
     margin-top: -90%;
     margin-left: 39%;
+}
+
+
+/* For screen sizes from 900px wide and down */
+@media screen and (max-width: 1200px) {
+
+    #logo {
+        position: absolute;
+        margin: 0 auto;
+    }
 }
