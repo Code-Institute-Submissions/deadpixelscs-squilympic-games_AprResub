@@ -47,11 +47,11 @@ h2 {
 
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     position: absolute;
     margin-left: 5%;
-    margin-top: -146.0%;
+    margin-top: -146.4%;
 }
 
 
@@ -118,7 +118,6 @@ h2 {
 
     .hero-image {
         max-width: 100%;
-        min-width: none;
         padding-bottom: 68%;
         margin-top: -208%;
         overflow: hidden;
@@ -151,7 +150,6 @@ footer {
 }
 
 .social-networks li {
-    -webkit-font-smoothing: antialiased;
     display: inline;
     font-style: normal;
     font-variant: normal;
@@ -161,7 +159,6 @@ footer {
 
 .social-networks i {
     font-size: 250%;
-    padding: -50%;
     text-align: center;
     margin-top: -200%;
     margin-left: 5%;
@@ -172,9 +169,8 @@ footer {
 /* social network icons */
 
 .fab {
-    -webkit-font-smoothing: antialiased;
     display: inline;
-    letter-spacing: 20%;
+    letter-spacing: 1px;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
