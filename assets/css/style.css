@@ -36,7 +36,7 @@ h2 {
     letter-spacing: 2px;
     line-height: 45px;
     margin-top: -101%;
-    margin-left: -8%;
+    margin-left: 2%;
     color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ h2 {
     font-size: 27px;
     text-align: center;
     top: 18px;
-    left: 44%;
+    left: 49%;
     transform: translate(-50%);
 }
 
@@ -145,7 +145,7 @@ footer {
 .social-networks {
     font-size: 108%;
     text-align: center;
-    margin-left: -17%;
+    margin-left: -2%;
     padding: 10%;
     margin-top: 58%;
 }
@@ -206,6 +206,9 @@ footer {
 .grid {
     margin-top: -402%;
     margin-left: 10%;
+}
+
+.grid {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
@@ -223,7 +226,7 @@ button {
     width: 50%;
     height: 6%;
     top: 0;
-    right: 32%;
+    right: 24%;
     margin-top: 156%;
     /* margin-left: -265px; */
     display: flex;
@@ -238,14 +241,9 @@ button {
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 1px;
     margin-top: -481%;
-    margin-left: 3%;
+    margin-left: 9%;
     color: rgb(0 255 217);
 
-}
-
-.grid {
-    margin-top: -402%;
-    margin-left: 6%;
 }
 
 @media only screen and (min-width: 414px) {
@@ -255,7 +253,7 @@ button {
         font-size: 39px;
         text-align: center;
         top: 13px;
-        left: 44%;
+        left: 49%;
     }
 
     .hero-image {
@@ -268,7 +266,7 @@ button {
         font-family: 'Bungee', cursive, sans-serif;
         letter-spacing: 1px;
         margin-top: -423%;
-        margin-left: 3%;
+        margin-left: 9%;
         color: rgb(0 255 217);
     }
 
@@ -278,18 +276,59 @@ button {
 
     .grid {
         margin-top: -358%;
-        margin-left: 7%;
+        margin-left: 14%;
     }
 
     h2 {
         margin-top: -90%;
-        margin-left: -11%;
+        margin-left: 4%;
     }
 
     .social-networks {
         font-size: 95%;
-        margin-left: -17%;
+        margin-left: -3%;
         margin-top: 52%;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    #logo {
+        top: 2%;
+    }
+
+    #background-image {
+        margin-top: 41%;
+    }
+
+    #difficulty-container {
+        font-size: 32px;
+        margin-top: -231%;
+        margin-left: 15%;
+    }
+
+    button {
+        width: 200px;
+        margin-top: 104%;
+        margin-right: 13%;
+    }
+
+    .grid {
+        margin-top: -188%;
+        margin-left: 11%;
+        height: 298px;
+        width: 600px;
+    }
+
+    .social-networks {
+        font-size: 100%;
+        margin-left: -3%;
+        margin-top: 28%;
+    }
+
+    h2 {
+        margin-top: -41%;
+        margin-left: 4%;
+    }
+
+}
+ 
