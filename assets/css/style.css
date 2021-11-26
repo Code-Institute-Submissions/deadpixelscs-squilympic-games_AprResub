@@ -163,7 +163,6 @@ button {
 }
 
 
-
 /* Footer */
 
 footer {
@@ -244,6 +243,39 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #110e22;
+}
+
+/* media queries */
+@media only screen and (min-width: 414px) {
+
+    #difficulty-container {
+        font-size: 19px;
+        margin-top: -428%;
+        margin-left: 3%;
+    }
+
+    button {
+        margin-top: 147%;
+        margin-right: -21%;
+    }
+
+    .grid {
+        margin-top: -346%;
+        margin-left: 12%;
+    }
+
+    h2 {
+        margin-top: -74%;
+        margin-left: 1%;
+    }
+
+    .social-networks {
+        font-size: 95%;
+        margin-left: -8%;
+        margin-top: 60%;
+    }
+
+}
 
 
 
