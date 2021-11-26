@@ -16,7 +16,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background: linear-gradient( 
-        270deg, rgb(4 66 63 / 100%) 35%, rgba(0 255 217 / 0.95) 100% );
+        270deg, rgb(4 66 217 / 75%) 35%, rgba(0 255 217 / 0.95) 100% );
 }
 
 /*  headings and logo */
@@ -29,14 +29,14 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 28px;
     font-family: 'Press Start 2P', cursive, sans-serif;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    line-height: 70px;
-    margin-top: -20%;
-    color: #ffffff
+    line-height: 45px;
+    margin-top: -126%;
+    color: #ffffff;
 }
 
 /* nav links */
@@ -51,11 +51,11 @@ h2 {
 #logo {
     position: absolute;
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 25px;
-    text-align: left;
-
-    margin-left: 5%;
-    margin-top: -146.4%;
+    font-size: 27px;
+    text-align: center;
+    top: 18px;
+    left: 49%;
+    transform: translate(-50%);
 }
 
 #menu li {
@@ -81,8 +81,9 @@ h2 {
 
 #background-image {
     height: 2000px;
-    width: 100%;
-    margin-top: 36%;
+    width: 106%;
+    margin-top: 46%;
+    margin-left: -2%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
@@ -141,12 +142,11 @@ footer {
 }
 
 .social-networks {
-    font-size: 150%;
+    font-size: 108%;
     text-align: center;
-    margin-left: 0%;
+    margin-left: -7%;
     padding: 10%;
-    margin-top: 11%;
-
+    margin-top: 58%;
 }
 
 .social-networks li {
@@ -178,25 +178,25 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 .fa-bug {
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #110e22;
 }
 
 /* Add bar at top nav */
@@ -213,41 +213,42 @@ footer {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
-    width: 400px;
+    width: 300px;
 }
 
 /* Add better background positioning */
 
 button {
-    font-size: 30px;
+    position: absolute;
+    font-size: 22px;
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-weight: bold;
     line-height: 70px;
-    width: 15%;
-    height: 10%;
+    width: 50%;
+    height: 6%;
     top: 0;
-    right: 5%;
-    margin-top: 43%;
-    margin-left: -250px;
+    right: 25%;
+    margin-top: 94%;
+    /* margin-left: -265px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+
 }
 
 #difficulty-container {
-    font-size: 25px;
+    position: absolute;
+    font-size: 18px;
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 1px;
-    margin-top: -110%;
+    margin-top: -541%;
     margin-left: 5%;
-    position: absolute;
     color: rgb(0 255 217);
 
 }
 
 .grid {
-    margin-top: -90%;
-    margin-left: 39%;
+    margin-top: -425%;
+    margin-left: 9%;
 }
 
