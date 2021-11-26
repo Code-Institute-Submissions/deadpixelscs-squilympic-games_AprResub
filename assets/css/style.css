@@ -16,7 +16,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background: linear-gradient( 
-        270deg, rgb(132 8 36 / 72%) 35%, rgba(0 255 217 / 0.95) 100% );
+        270deg, rgb(132 8 36 / 100%) 35%, rgba(0 255 217 / 0.95) 100% );
 }
 
 /*  headings and logo */
@@ -25,7 +25,7 @@ h1 {
     font-family: 'Press Start 2P', cursive, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ffffff
+    color: #01012b
 }
 
 h2 {
@@ -33,6 +33,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    margin-top: 20%;
     color: #ffffff
 }
 
@@ -46,11 +47,11 @@ h2 {
 
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-align: left;
     position: absolute;
     margin-left: 5%;
-    margin-top: -146.7%;
+    margin-top: -146.0%;
 }
 
 
@@ -99,7 +100,7 @@ h2 {
 
               /* animates zoom in on loading page banner */
       animation-name: hero-zoom;
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-delay: 4ms;
       animation-fill-mode:inherit;
   }
@@ -122,12 +123,6 @@ h2 {
         margin-top: -208%;
         overflow: hidden;
     }
-   
-    
-
-
-  }
-  
 
 /* Footer */
 
@@ -190,25 +185,25 @@ footer {
 .fa-facebook {
     text-align: center;
     text-decoration: none;
-    color: #110e22;
+    color: #ffffff;
 }
 
 .fa-instagram {
     text-align: center;
     text-decoration: none;
-    color: #110e22;
+    color: #ffffff;
 }
 
 .fa-youtube {
     text-align: center;
     text-decoration: none;
-    color: #110e22;
+    color: #ffffff;
 }
 
 .fa-bug {
     text-align: center;
     text-decoration: none;
-    color: #110e22;
+    color: #ffffff;
 }
 
 /* Add bar at top nav */
@@ -232,7 +227,7 @@ footer {
 
 button {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive, sans-serif;
     font-weight: bold;
     line-height: 70px;
     width: 15%;
@@ -248,7 +243,12 @@ button {
 }
 
 #difficulty-container {
-    margin-top: 40%;
-    position:absolute;
+    font-size: 25px;
+    font-family: 'Bungee', cursive, sans-serif;
+    letter-spacing: 1px;
+    margin-top: -110%;
+    margin-left: 5%;
+    position: absolute;
+    color: rgb(0 255 217);
 
 }

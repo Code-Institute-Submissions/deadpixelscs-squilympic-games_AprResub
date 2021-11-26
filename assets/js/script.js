@@ -137,7 +137,7 @@ function shuffleCards(cards) {
     var randomIndex;
 
     while (currentIndex != 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
+        randomIndex = Math.trunc(Math.random() * currentIndex);
         currentIndex--;
         [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
     }
