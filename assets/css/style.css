@@ -251,12 +251,3 @@ button {
     margin-left: 39%;
 }
 
-
-/* For screen sizes from 900px wide and down */
-@media screen and (max-width: 1200px) {
-
-    #logo {
-        position: absolute;
-        margin: 0 auto;
-    }
-}
