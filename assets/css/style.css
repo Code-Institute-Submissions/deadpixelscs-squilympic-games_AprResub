@@ -199,13 +199,6 @@ footer {
     color: #110e22;
 }
 
-/* Add bar at top nav */
-
-#nav-bar {
-    height: 100px;
-    width: 100%;
-    color: #fffb00;
-}
 
 /* Add grid styling */
 
@@ -271,7 +264,7 @@ button {
         font-size: 25px;
         font-family: 'Bungee', cursive, sans-serif;
         letter-spacing: 1px;
-        margin-top: -324%;
+        margin-top: -306%;
         margin-left: 12%;
         color: rgb(0 255 217);
     }
@@ -281,12 +274,12 @@ button {
     }
 
     .grid {
-        margin-top: -263%;
+        margin-top: -261%;
         margin-left: 24%;
     }
 
     h2 {
-        margin-top: -75%;
+        margin-top: -64%;
     }
 
     .social-networks {
@@ -332,6 +325,49 @@ button {
     .social-networks {
         font-size: 185%;
         margin-top: 23%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #logo {
+        font-size: 44px;
+        top: 48px;
+    }
+
+    #difficulty-container {
+        font-size: 53px;
+        margin-top: -182%;
+        margin-left: 9%;
+    }
+
+    #background-image {
+        margin-top: 41%;
+    }
+
+    button {
+        font-size: 41px;
+        width: 40%;
+        height: 9%;
+        top: -229px;
+        right: 30%;
+    }
+
+    .grid {
+        margin-top: -176%;
+        margin-left: 20%;
+    }
+
+    h2 {
+        font-size: 53px;
+        line-height: 72px;
+        margin-top: -42%;
+    }
+
+    .social-networks {
+        font-size: 185%;
+        margin-top: 57%;
     }
 
 }
