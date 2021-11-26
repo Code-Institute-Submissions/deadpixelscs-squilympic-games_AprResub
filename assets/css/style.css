@@ -289,7 +289,7 @@ button {
     }
 
     button {
-        width: 220px;
+        width: 31%;
         margin-top: 104%;
         margin-right: 10%;
     }
@@ -329,8 +329,8 @@ button {
     }
 
     button {
-        top: -265px;
-        right: 28%;
+        top: -30%;
+        right: 24%;
     }
 
     .grid {
@@ -368,8 +368,8 @@ button {
     }
 
     button {
-        top: -450px;
-        right: 30%;
+        top: -46%;
+        right: 23%;
     }
 
     .grid {
@@ -386,6 +386,33 @@ button {
     }
 
 }
+
+@media only screen and (min-width: 1600px) {
+
+    #difficulty-container {
+        margin-top: -105%;
+        margin-left: 27%;
+    }
+
+    button {
+        width: 18%;
+        top: -56%;
+        right: 32%;
+    }
+
+    .grid {
+        margin-top: -95%;
+        margin-left: 30%;
+    }
+
+    h2 {
+        margin-top: -21%;
+    }
+
+    .social-networks {
+        margin-top: 16%;
+    }
+
 
 
 
