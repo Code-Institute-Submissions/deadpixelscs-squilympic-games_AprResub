@@ -48,7 +48,6 @@ h2 {
     margin-top: -5.5%;
 }
 
-
 #logo {
     position: absolute;
     font-family: 'Bungee', cursive, sans-serif;
@@ -95,7 +94,6 @@ h2 {
     }
     .hero-image {
         max-width: 100%;
-        min-width: none;
         overflow: hidden;
     }
     .image-container{
@@ -340,9 +338,9 @@ button {
     }
 
     #difficulty-container {
-        font-size: 53px;
+        font-size: 50px;
         margin-top: -174%;
-        margin-left: 9%;
+        margin-left: 11%;
     }
 
     #background-image {
@@ -354,16 +352,16 @@ button {
         width: 40%;
         height: 9%;
         top: -159px;
-        right: 18%;
+        right: 16%;
     }
 
     .grid {
-        margin-top: -139%;
-        margin-left: 18%;
+        margin-top: -133%;
+        margin-left: 22%;
     }
 
     h2 {
-        font-size: 53px;
+        font-size: 37px;
         line-height: 72px;
         margin-top: -34%;
         margin-left: -14px;
@@ -371,8 +369,8 @@ button {
 
     .social-networks {
         font-size: 218%;
-        margin-top: 17%;
-        margin-left: -8%;
+        margin-top: 20%;
+        margin-left: -3%;
     }
 
 }
@@ -380,22 +378,23 @@ button {
 @media only screen and (max-width: 1605px) {
 
     #logo {
-        font-size: 71px;
+        font-size: 70px;
+        margin-left: 1%;
     }
 
     #difficulty-container {
         font-size: 79px;
         margin-top: -110%;
-        margin-left: 15%;
+        margin-left: 12%;
     }
 
     button {
         font-size: 43px;
         width: 23%;
         height: 8%;
-        top: -500;
+        top: 0;
         right: 26%;
-        margin-top: 83%;
+        margin-top: 74%;
     }
 
     .grid {
@@ -412,8 +411,6 @@ button {
     }
 
 }
-
-
 
 @media only screen and (max-width: 1700px) {
 
@@ -442,9 +439,9 @@ button {
         font-size: 43px;
         width: 23%;
         height: 8%;
-        top: -500;
+        top: 0;
         right: 26%;
-        margin-top: 80%;
+        margin-top: 71%;
     }
 
     .grid {
@@ -458,9 +455,16 @@ button {
 
     .social-networks {
         margin-top: 13%;
+        margin-left: -10%;
     }
 
 }
+
+
+
+
+
+
 
 
 

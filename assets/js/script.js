@@ -1,3 +1,9 @@
+'use strict';
+window.document.addEventListener('DOMContentLoaded', () => {
+    //start the game immediately
+    startGame();
+});
+
 function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
     for (let i = 0; i < cards.length; i++) {
