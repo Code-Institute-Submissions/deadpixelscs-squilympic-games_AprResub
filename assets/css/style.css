@@ -277,5 +277,37 @@ footer {
 
 }
 
+/* media queries 500px */
+@media only screen and (min-width: 500px) {
+
+    #difficulty-container {
+        font-size: 22px;
+        margin-top: -353%;
+        margin-left: 7%;
+    }
+
+    button {
+        margin-top: 128%;
+        margin-right: -22%;
+    }
+
+    .grid {
+        margin-top: -289%;
+        margin-left: 18%;
+    }
+
+    h2 {
+        margin-top: -63%;
+        margin-left: -1%;
+    }
+
+    .social-networks {
+        font-size: 95%;
+        margin-left: -8%;
+        margin-top: 56%;
+    }
+
+}
+
 
 
