@@ -93,9 +93,9 @@ h2 {
     position: relative;
     }
     .hero-image {
-      max-width: 100%;
-      min-width: none;
-      overflow: hidden;
+        max-width: 100%;
+        min-width: none;
+        overflow: hidden;
     }
     .image-container{
       height: auto;
@@ -250,5 +250,59 @@ button {
 .grid {
     margin-top: -407%;
     margin-left: 9%;
+}
+
+@media only screen and (min-width: 569px) {
+    #logo {
+        position: absolute;
+        font-family: 'Bungee', cursive, sans-serif;
+        font-size: 39px;
+        text-align: center;
+        top: 17px;
+        left: 50%;
+    }
+
+    .hero-image {
+        margin-top: 5%;
+    }
+
+    #difficulty-container {
+        position: absolute;
+        font-size: 25px;
+        font-family: 'Bungee', cursive, sans-serif;
+        letter-spacing: 1px;
+        margin-top: -324%;
+        margin-left: 12%;
+        color: rgb(0 255 217);
+    }
+
+    button {
+        margin-top: 112%;
+    }
+
+    .grid {
+        margin-top: -263%;
+        margin-left: 24%;
+    }
+
+    h2 {
+        margin-top: -75%;
+    }
+
+    .social-networks {
+        font-size: 164%;
+        margin-left: -4%;
+        margin-top: 43%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+
+
+
+
+
+    
 }
 
