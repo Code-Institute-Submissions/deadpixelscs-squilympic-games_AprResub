@@ -35,7 +35,8 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
     line-height: 45px;
-    margin-top: -126%;
+    margin-top: -101%;
+    margin-left: -4%;
     color: #ffffff;
 }
 
@@ -83,7 +84,7 @@ h2 {
     height: 2000px;
     width: 106%;
     margin-top: 29%;
-    margin-left: -3%;
+    margin-left: -6%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
@@ -144,7 +145,7 @@ footer {
 .social-networks {
     font-size: 108%;
     text-align: center;
-    margin-left: -7%;
+    margin-left: -13%;
     padding: 10%;
     margin-top: 58%;
 }
@@ -220,7 +221,7 @@ button {
     width: 50%;
     height: 6%;
     top: 0;
-    right: 25%;
+    right: 30%;
     margin-top: 156%;
     /* margin-left: -265px; */
     display: flex;
@@ -231,28 +232,28 @@ button {
 
 #difficulty-container {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 1px;
-    margin-top: -514%;
+    margin-top: -481%;
     margin-left: 5%;
     color: rgb(0 255 217);
 
 }
 
 .grid {
-    margin-top: -407%;
-    margin-left: 9%;
+    margin-top: -402%;
+    margin-left: 6%;
 }
 
-@media only screen and (min-width: 569px) {
+@media only screen and (min-width: 414px) {
     #logo {
         position: absolute;
         font-family: 'Bungee', cursive, sans-serif;
         font-size: 39px;
         text-align: center;
-        top: 17px;
-        left: 50%;
+        top: 14px;
+        left: 52%;
     }
 
     .hero-image {
@@ -261,150 +262,32 @@ button {
 
     #difficulty-container {
         position: absolute;
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'Bungee', cursive, sans-serif;
         letter-spacing: 1px;
-        margin-top: -306%;
+        margin-top: -423%;
         margin-left: 12%;
         color: rgb(0 255 217);
     }
 
     button {
-        margin-top: 112%;
+        margin-top: 145%;
     }
 
     .grid {
-        margin-top: -261%;
-        margin-left: 24%;
-    }
-
-    h2 {
-        margin-top: -64%;
-    }
-
-    .social-networks {
-        font-size: 164%;
-        margin-left: -4%;
-        margin-top: 43%;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-
-    #logo {
-        top: 20px;
-    }
-
-    #difficulty-container {
-        font-size: 37px;
-        margin-top: -224%;
-        margin-left: 11%;
-    }
-
-    button {
-        font-size: 47px;
-        width: 51%;
-        height: 15%;
-        top: -128px;
-        right: 25%;
-    }
-
-    .grid {
-        margin-top: -180%;
-        margin-left: 11%;
-        height: 300px;
-        width: 600px;
-    }
-    
-    h2 {
-        font-size: 53px;
-        line-height: 72px;
-        margin-top: -54%;
-    }
-
-    .social-networks {
-        font-size: 185%;
-        margin-top: 21%;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) {
-
-    #logo {
-        font-size: 44px;
-        top: 48px;
-    }
-
-    #difficulty-container {
-        font-size: 53px;
-        margin-top: -174%;
-        margin-left: 9%;
-    }
-
-    #background-image {
-        margin-top: 41%;
-    }
-
-    button {
-        font-size: 41px;
-        width: 40%;
-        height: 9%;
-        top: -229px;
-        right: 30%;
-    }
-
-    .grid {
-        margin-top: -139%;
-        margin-left: 20%;
-    }
-
-    h2 {
-        font-size: 53px;
-        line-height: 72px;
-        margin-top: -38%;
-    }
-
-    .social-networks {
-        font-size: 218%;
-        margin-top: 19%;
-    }
-
-}
-
-@media only screen and (min-width: 1699px) {
-
-    #logo {
-        font-size: 76px;
-    }
-
-    #difficulty-container {
-        font-size: 79px;
-        margin-top: -104%;
+        margin-top: -343%;
         margin-left: 15%;
     }
 
-    button {
-        font-size: 43px;
-        width: 29%;
-        height: 10%;
-        top: -500;
-        right: 35%;
-        margin-top: 82%;
-    }
-
-    .grid {
-        margin-top: -83%;
-        margin-left: 33%;
-    }
-
     h2 {
-    margin-top: -21%
+        margin-top: -92%;
+        margin-left: 4%;
     }
 
     .social-networks {
-        margin-top: 13%;
+        font-size: 95%;
+        margin-left: -4%;
+        margin-top: 52%;
     }
-
 }
 
