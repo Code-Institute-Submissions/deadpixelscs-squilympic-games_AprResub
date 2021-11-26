@@ -338,7 +338,7 @@ button {
 
     #difficulty-container {
         font-size: 53px;
-        margin-top: -182%;
+        margin-top: -174%;
         margin-left: 9%;
     }
 
@@ -355,19 +355,19 @@ button {
     }
 
     .grid {
-        margin-top: -176%;
+        margin-top: -139%;
         margin-left: 20%;
     }
 
     h2 {
         font-size: 53px;
         line-height: 72px;
-        margin-top: -42%;
+        margin-top: -38%;
     }
 
     .social-networks {
-        font-size: 185%;
-        margin-top: 57%;
+        font-size: 218%;
+        margin-top: 19%;
     }
 
 }
