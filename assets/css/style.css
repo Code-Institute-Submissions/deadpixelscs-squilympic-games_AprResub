@@ -377,4 +377,41 @@ button {
 
 }
 
+@media only screen and (min-width: 1700px) {
+
+    #logo {
+        font-size: 76px;
+    }
+
+    #difficulty-container {
+        font-size: 79px;
+        margin-top: -104%;
+        margin-left: 15%;
+    }
+
+    button {
+        font-size: 43px;
+        width: 23%;
+        height: 8%;
+        top: -500;
+        right: 26%;
+        margin-top: 78%;
+    }
+
+    .grid {
+        margin-top: -82%;
+        margin-left: 30%;
+    }
+
+    h2 {
+    margin-top: -21%
+    }
+
+    .social-networks {
+        margin-top: 13%;
+    }
+
+}
+
+
  
