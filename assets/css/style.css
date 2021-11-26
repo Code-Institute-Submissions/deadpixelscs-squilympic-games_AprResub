@@ -348,6 +348,48 @@ footer {
 
 }
 
+@media only screen and (min-width: 1024px) {
+
+    #logo {
+        font-size: 43px;
+        top: 25px;
+        margin-left: 2%;
+    }
+
+    #difficulty-container {
+        font-size: 42px;
+        margin-top: -169%;
+        margin-left: 18%;
+    }
+
+    button {
+        top: -16%;
+        right: 46%;
+    }
+
+    .grid {
+        margin-top: -135%;
+        margin-left: 23%;
+    }
+
+    h2 {
+        font-size: 37px;
+        line-height: 72px;
+        margin-top: -34%;
+        margin-right: -36px;
+    }
+
+    .social-networks {
+        font-size: 150%;
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+}
+
+
+
+
 
 
 
