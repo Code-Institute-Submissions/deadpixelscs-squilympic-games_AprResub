@@ -443,7 +443,36 @@ button {
         }
 }
 
+@media only screen and (min-width: 414px) {
 
+    #difficulty-container {
+        font-size: 19px;
+        margin-top: -426%;
+        margin-left: 8%;
+    }
+
+    button {
+        margin-top: 138%;
+        margin-right: 1%;
+    }
+
+    .grid {
+        margin-top: -364%;
+        margin-left: 13%;
+    }
+
+    h2 {
+        margin-top: -89%;
+        margin-left: 1%;
+    }
+
+    .social-networks {
+        font-size: 95%;
+        margin-left: -3%;
+        margin-top: 47%;
+    }
+
+}
 
 
 
