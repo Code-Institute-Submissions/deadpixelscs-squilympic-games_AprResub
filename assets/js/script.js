@@ -1,7 +1,13 @@
 'use strict';
+/*jshint esversion: 6 */
 window.document.addEventListener('DOMContentLoaded', () => {
     //start the game immediately
     startGame();
+});
+
+/* sweetalert2 for rules */
+document.querySelector(".third").addEventListener('click', function(){
+    Swal.fire("Our First Alert", "With some body text and success icon!", "success");
 });
 
 function createBoard(cards, main) {

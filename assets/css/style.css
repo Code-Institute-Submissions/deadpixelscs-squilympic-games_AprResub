@@ -19,6 +19,25 @@ body {
         270deg, rgb(4 66 217 / 75%) 35%, rgba(0 255 217 / 0.95) 100% );
 }
 
+/* restart button styling */
+
+button {
+    background: rgb(237, 100, 100);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Lato';
+    margin: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+  }
+  
+button:hover {
+    background: #110e22;
+  }
+
 /*  headings and logo */
 
 h1 {
