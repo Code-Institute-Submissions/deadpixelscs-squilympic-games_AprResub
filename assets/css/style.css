@@ -36,7 +36,7 @@ h2 {
     letter-spacing: 2px;
     line-height: 45px;
     margin-top: -101%;
-    margin-left: -4%;
+    margin-left: -8%;
     color: #ffffff;
 }
 
@@ -55,7 +55,7 @@ h2 {
     font-size: 27px;
     text-align: center;
     top: 18px;
-    left: 49%;
+    left: 44%;
     transform: translate(-50%);
 }
 
@@ -145,7 +145,7 @@ footer {
 .social-networks {
     font-size: 108%;
     text-align: center;
-    margin-left: -13%;
+    margin-left: -17%;
     padding: 10%;
     margin-top: 58%;
 }
@@ -204,6 +204,8 @@ footer {
 /* Add grid styling */
 
 .grid {
+    margin-top: -402%;
+    margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
     height: 500px;
@@ -221,7 +223,7 @@ button {
     width: 50%;
     height: 6%;
     top: 0;
-    right: 30%;
+    right: 32%;
     margin-top: 156%;
     /* margin-left: -265px; */
     display: flex;
@@ -236,7 +238,7 @@ button {
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 1px;
     margin-top: -481%;
-    margin-left: 5%;
+    margin-left: 3%;
     color: rgb(0 255 217);
 
 }
@@ -252,8 +254,8 @@ button {
         font-family: 'Bungee', cursive, sans-serif;
         font-size: 39px;
         text-align: center;
-        top: 14px;
-        left: 52%;
+        top: 13px;
+        left: 44%;
     }
 
     .hero-image {
@@ -266,7 +268,7 @@ button {
         font-family: 'Bungee', cursive, sans-serif;
         letter-spacing: 1px;
         margin-top: -423%;
-        margin-left: 12%;
+        margin-left: 3%;
         color: rgb(0 255 217);
     }
 
@@ -275,18 +277,18 @@ button {
     }
 
     .grid {
-        margin-top: -343%;
-        margin-left: 15%;
+        margin-top: -358%;
+        margin-left: 7%;
     }
 
     h2 {
-        margin-top: -92%;
-        margin-left: 4%;
+        margin-top: -90%;
+        margin-left: -11%;
     }
 
     .social-networks {
         font-size: 95%;
-        margin-left: -4%;
+        margin-left: -17%;
         margin-top: 52%;
     }
 }
