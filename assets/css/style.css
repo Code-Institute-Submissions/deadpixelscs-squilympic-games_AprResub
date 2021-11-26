@@ -28,6 +28,28 @@ h1 {
     color: #01012b
 }
 
+h2 {
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: -87%;
+    margin-left: 2%;
+    color: #ffffff;
+}
+
+#logo {
+    position: absolute;
+    font-family: 'Bungee', cursive, sans-serif;
+    font-size: 29px;
+    text-align: center;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /* nav links */
 
 #menu {
@@ -36,15 +58,7 @@ h1 {
     margin-top: -5.5%;
 }
 
-#logo {
-    position: absolute;
-    font-family: 'Bungee', cursive, sans-serif;
-    font-size: 23px;
-    text-align: center;
-    top: 22px;
-    left: 29%;
-    transform: translate(-50%);
-}
+
 
 #menu li {
     float: right;
@@ -70,7 +84,7 @@ h1 {
 #background-image {
     height: 2000px;
     width: 106%;
-    margin-top: 27%;
+    margin-top: 30%;
     margin-left: -6%;
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
@@ -81,8 +95,8 @@ h1 {
     position: relative;
     }
     .hero-image {
-        max-width: 64%;
-        margin-left: -37%;
+        max-width: 102%;
+        margin-left: -1%;
         overflow: hidden;
     }
     .image-container{
@@ -115,11 +129,11 @@ h1 {
 
 #difficulty-container {
     position: absolute;
-    font-size: 7px;
+    font-size: 16px;
     font-family: 'Bungee', cursive, sans-serif;
     letter-spacing: 2px;
-    margin-top: -499%;
-    margin-left: 2%;
+    margin-top: -468%;
+    margin-left: 6%;
 }
 
 button {
@@ -128,37 +142,27 @@ button {
     font-family: 'Press Start 2P', cursive, sans-serif;
     font-weight: bold;
     line-height: 70px;
-    width: 45%;
+    width: 51%;
     height: 8%;
     top: 0;
     right: 48%;
-    margin-top: 78%;
-    margin-right: 1%;
+    margin-top: 165%;
+    margin-right: -23%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .grid {
-    margin-top: -438%;
-    margin-left: 1.5%;
+    margin-top: -387%;
+    margin-left: 9.5%;
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 200px;
+    height: 500px;
+    width: 300px;
 }
 
-h2 {
-    font-size: 8px;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-top: -88%;
-    margin-left: -42%;
-    color: #ffffff;
-}
+
 
 /* Footer */
 
@@ -178,14 +182,16 @@ footer {
 }
 
 .social-networks {
-    font-size: 57%;
-    letter-spacing: -12px;
+    font-size: 100%;
     text-align: center;
-    margin-left: -54%;
+    margin-left: -4%;
     padding: 10%;
-    margin-top: 72%;
+    margin-top: 74%;
+
+}
 
 .social-networks li {
+    -webkit-font-smoothing: antialiased;
     display: inline;
     font-style: normal;
     font-variant: normal;
@@ -195,21 +201,26 @@ footer {
 
 .social-networks i {
     font-size: 250%;
+    padding: -50%;
     text-align: center;
     margin-top: -200%;
     margin-left: 5%;
 }
 
+
+
 /* social network icons */
 
 .fab {
+    -webkit-font-smoothing: antialiased;
     display: inline;
-    letter-spacing: 1px;
+    letter-spacing: 20%;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
     line-height: 2;
 }
+
 
 .fa-facebook {
     text-align: center;
@@ -233,14 +244,6 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #110e22;
-}
-
-
-
-/* Add grid styling */
-
-
-
 
 
 
