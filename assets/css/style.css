@@ -11,6 +11,7 @@ body {
     text-align: left;
     font-weight: 500;
     color: #ffffff;
+    max-width: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -47,9 +48,9 @@ h2 {
     font-family: 'Bungee', cursive, sans-serif;
     font-size: 40px;
     text-align: left;
-    position: relative;
+    position: absolute;
     margin-left: 5%;
-    margin-top: 1.3%;
+    margin-top: -146.7%;
 }
 
 
@@ -78,36 +79,29 @@ h2 {
 #background-image {
     height: 2000px;
     width: 100%;
-    margin-top: 35%;
-    background: url(../images/background.png) no-repeat center center;
-    position: absolute;
+    margin-top: 36%;
+    background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
 /* hero image */
 
 
 .controls{
-    position: relative;
-    }
-    .hero-image {
-      max-width: 100%;
-      min-width: none;
-      overflow: hidden;
+    position: absolute;
     }
     .image-container{
-      height: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      top: 100px;
-    
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
 
-      /* animates zoom in on loading page banner */
+              /* animates zoom in on loading page banner */
       animation-name: hero-zoom;
-      animation-duration: 5s;
-      animation-delay: 30ms;
-      animation-fill-mode: forwards;
+      animation-duration: 2s;
+      animation-delay: 4ms;
+      animation-fill-mode:inherit;
   }
   
   /* creates zoom in for hero image */
@@ -119,6 +113,19 @@ h2 {
       to {
           transform: scale(1);
       }
+    }
+
+    .hero-image {
+        max-width: 100%;
+        min-width: none;
+        padding-bottom: 68%;
+        margin-top: -208%;
+        overflow: hidden;
+    }
+   
+    
+
+
   }
   
 
@@ -144,7 +151,7 @@ footer {
     text-align: center;
     margin-left: 0%;
     padding: 10%;
-    margin-top: 0%;
+    margin-top: 10%;
 
 }
 
@@ -228,11 +235,11 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 70px;
-    width: 10%;
-    height: 8%;
-    top: 100%;
+    width: 15%;
+    height: 10%;
+    top: 0;
     right: 5%;
-    margin-top: -250px;
+    margin-top: 43%;
     margin-left: -250px;
     display: flex;
     justify-content: center;
@@ -241,7 +248,7 @@ button {
 }
 
 #difficulty-container {
-    margin-top: 50%;
+    margin-top: 40%;
     position:absolute;
 
 }
