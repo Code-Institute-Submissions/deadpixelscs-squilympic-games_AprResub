@@ -415,4 +415,55 @@ button {
 
 
 
+@media only screen and (max-width: 1700px) {
+
+    #logo {
+        font-size: 76px;
+    }
+
+    .hero-image {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    #difficulty-container {
+        font-size: 79px;
+        margin-top: -104%;
+        margin-left: 15%;
+    }
+
+
+    #background-image {
+        margin-top: 41%;
+        margin-left: -3%;
+    }
+
+    button {
+        font-size: 43px;
+        width: 23%;
+        height: 8%;
+        top: -500;
+        right: 26%;
+        margin-top: 80%;
+    }
+
+    .grid {
+        margin-top: -82%;
+        margin-left: 32%;
+    }
+
+    h2 {
+    margin-top: -21%
+    }
+
+    .social-networks {
+        margin-top: 13%;
+    }
+
+}
+
+
+
+
+
  
