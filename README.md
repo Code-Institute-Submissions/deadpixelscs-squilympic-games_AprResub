@@ -2,15 +2,18 @@ SQUILYMPIC GAMES
 
 Squilympic Games is a puzzle memory game based on the hit tv show Squid Game. Players have to match the correct pair of tiles from a selection of 18 tiles. Each tile features a unique character or symbol from the tv show. Once all pairs are matched the game is complete.
 
-INSERT IMAGE MOCKUP HERE
 
-IMPORTANT
-Unable to complete in enough time due to personal reasons. Validated what I can but vault.html page needs attention and is unfinished. Readme is unfinished. Responsiveness is optimised for 1972x1920 everything below needs fixing. Issues with dev tools not recognising media queries holding me back. Mock up images not added yet to readme.
+<img width="1661" alt="Squilympic Games" src="https://user-images.githubusercontent.com/82841138/143577569-d687f5e6-48d9-4deb-bde4-6ab62b6481ea.png">
+<img width="915" alt="Tiles" src="https://user-images.githubusercontent.com/82841138/143577852-0b2ff48f-72fb-4731-a669-30a8f630fea2.png">
 
 Existing Features
-* Navigation Bar
-    * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Vault and Sign Up page and is identical in each page to allow for easy navigation.
-    * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+* Difficulty Settings - User can choose between 4 differnet difficulty settings to test their skills. Easy, Medium, Hard and Ultra.
+* The game starts autmatically once the first tile is selected. Once all tiles have succesfully been matached the game is finished.
+* The game will en dif you take to many turns and don't complete all the matched pairs. This depends on the difficulty setting.
+* An alert will trigger at the end of each game or when you have run out of turns. Thi swill notify you how may tries it took you or if you lost.
+* Social links at the bottom of the page to keep in touch.
+* Bug link at the bottom of the page to report and bugs in th egam eor on the website.
+   
 INSERT IMAGE MOCKUP HERE
 * The Landing Page
     * The landing page includes a banner image design showcasing the Retro Pop Crazy logo and some Funko Pop figures custom design in Photoshop.
