@@ -307,14 +307,20 @@ footer {
 
 @media only screen and (min-width: 414px) {
 
-    #difficulty-container {
-        font-size: 19px;
-        margin-top: -428%;
+    p { 
+        margin-top: -389%;
         margin-left: 3%;
     }
 
+
+    #difficulty-container {
+        font-size: 19px;
+        margin-top: -415%;
+        margin-left: 6%;
+    }
+
     button {
-        margin-top: 147%;
+        margin-top: 150%;
         margin-right: -21%;
     }
 
@@ -331,13 +337,22 @@ footer {
     .social-networks {
         font-size: 95%;
         margin-left: -8%;
-        margin-top: 60%;
+        margin-top: 74%;
     }
 
 }
 
 /* media queries 500px */
 @media only screen and (min-width: 500px) {
+
+
+    p { 
+        margin-top: -319%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
 
     #difficulty-container {
         font-size: 22px;
@@ -364,12 +379,19 @@ footer {
     .social-networks {
         font-size: 95%;
         margin-left: -8%;
-        margin-top: 56%;
+        margin-top: 60%;
     }
 
 }
 
 @media only screen and (min-width: 689px) {
+
+    p { 
+        margin-top: -227%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
 
     #logo {
         font-size: 29px;
@@ -378,7 +400,7 @@ footer {
 
     #difficulty-container {
         font-size: 32px;
-        margin-top: -253%;
+        margin-top: -248%;
         margin-left: 10%;
     }
 
@@ -403,12 +425,13 @@ footer {
     .social-networks {
         font-size: 100%;
         margin-left: -9%;
-        margin-top: 39%;
+        margin-top: 44%;
     }
 
 }
 
 @media only screen and (min-width: 1024px) {
+
 
     #logo {
         font-size: 43px;
@@ -416,33 +439,47 @@ footer {
         margin-left: 2%;
     }
 
+    #background-image {
+        margin-top: 43%;
+
+    }
+
+    p { 
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: -169%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
     #difficulty-container {
         font-size: 42px;
-        margin-top: -169%;
+        margin-top: -167%;
         margin-left: 18%;
     }
 
     button {
-        top: -16%;
-        right: 46%;
+        top: -6%;
+        right: 49%;
     }
 
     .grid {
         margin-top: -135%;
-        margin-left: 23%;
+        margin-left: 21%;
     }
 
     h2 {
         font-size: 37px;
         line-height: 72px;
         margin-top: -34%;
-        margin-right: -36px;
+        margin-right: -17px;
     }
 
     .social-networks {
         font-size: 150%;
-        margin-top: 20%;
-        margin-left: -3%;
+        margin-top: 35%;
+        margin-left: -6%;
     }
 
 }
@@ -455,6 +492,19 @@ footer {
         margin-left: -1%;
     }
 
+    #background-image {
+        margin-top: 40%;
+
+    }
+
+    p { 
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: -134%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
     #difficulty-container {
         font-size: 37px;
         margin-top: -134%;
@@ -462,23 +512,24 @@ footer {
     }
 
     button {
-        top: -37%;
+        width: 23%;
+        top: -27%;
         right: 52%;
     }
 
     .grid {
-        margin-top: -110%;
-        margin-left: 23%;
+        margin-top: -108%;
+        margin-left: 27%;
         }
 
     h2 {
         margin-top: -27%;
-        margin-right: 8%;
+        margin-right: 4%;
     }
 
     .social-networks {
-        margin-top: 18%;
-        margin-left: -9%;
+        margin-top: 28%;
+        margin-left: -6%;
     }
 
 }
@@ -489,9 +540,17 @@ footer {
         margin-top: 39%;
     }
 
+    p { 
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: -108%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
     #difficulty-container {
         font-size: 45px;
-        margin-top: -110%;
+        margin-top: -106%;
         margin-left: 27%;
     }
 
@@ -512,7 +571,7 @@ footer {
     }
 
     .social-networks {
-        margin-top: 14%;
+        margin-top: 22%;
     }
 
 }
