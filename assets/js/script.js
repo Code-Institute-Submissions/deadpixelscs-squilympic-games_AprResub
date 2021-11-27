@@ -1,13 +1,7 @@
-'use strict';
 /*jshint esversion: 6 */
 window.document.addEventListener('DOMContentLoaded', () => {
     //start the game immediately
     startGame();
-});
-
-/* sweetalert2 for rules */
-document.querySelector(".third").addEventListener('click', function(){
-    Swal.fire("Our First Alert", "With some body text and success icon!", "success");
 });
 
 function createBoard(cards, main) {
@@ -19,7 +13,7 @@ function createBoard(cards, main) {
             if (cards[i].picked === true) {
                 return;
             }
-            
+
             // flip the card
             card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-100px.png');
 
@@ -35,13 +29,12 @@ function createBoard(cards, main) {
                 var secondCardElement = card;
                 // Did we click the other card of the pair?
                 if (firstCard.name === secondCard.name) {
-                    firstCard.picked = true;                    
+                    firstCard.picked = true;
                     secondCard.picked = true;
                     main.picked++;
                     // We did! Well done! Flip to white
                     flipWhite(main.selectedCardElement, secondCardElement, main);
-                }
-                else {
+                } else {
                     // Nope, picked the wrong one. Flip back
                     flipBack(main.selectedCardElement, secondCardElement, main);
                 }
@@ -61,7 +54,7 @@ function createBoard(cards, main) {
                 clearRound();
                 newRound();
             }
-            
+
         });
         grid.appendChild(card);
     }
@@ -116,26 +109,79 @@ function flipWhite(first, second, main) {
 }
 
 function getCards() {
-    var cards = [
-        { name: 'triangle', picked: false  },
-        { name: 'square', picked: false  },
-        { name: 'circle', picked: false  },
-        { name: 'triangle-bad-guy', picked: false  },
-        { name: 'square-bad-guy', picked: false  },
-        { name: 'circle-bad-guy', picked: false  },
-        { name: 'player-001', picked: false  },
-        { name: 'player-067', picked: false  },
-        { name: 'player-456', picked: false  },
+    var cards = [{
+            name: 'triangle',
+            picked: false
+        },
+        {
+            name: 'square',
+            picked: false
+        },
+        {
+            name: 'circle',
+            picked: false
+        },
+        {
+            name: 'triangle-bad-guy',
+            picked: false
+        },
+        {
+            name: 'square-bad-guy',
+            picked: false
+        },
+        {
+            name: 'circle-bad-guy',
+            picked: false
+        },
+        {
+            name: 'player-001',
+            picked: false
+        },
+        {
+            name: 'player-067',
+            picked: false
+        },
+        {
+            name: 'player-456',
+            picked: false
+        },
         // Second set
-        { name: 'triangle', picked: false  },
-        { name: 'square', picked: false  },
-        { name: 'circle', picked: false  },
-        { name: 'triangle-bad-guy', picked: false  },
-        { name: 'square-bad-guy', picked: false  },
-        { name: 'circle-bad-guy', picked: false  },
-        { name: 'player-001', picked: false  },
-        { name: 'player-067', picked: false  },
-        { name: 'player-456', picked: false  },
+        {
+            name: 'triangle',
+            picked: false
+        },
+        {
+            name: 'square',
+            picked: false
+        },
+        {
+            name: 'circle',
+            picked: false
+        },
+        {
+            name: 'triangle-bad-guy',
+            picked: false
+        },
+        {
+            name: 'square-bad-guy',
+            picked: false
+        },
+        {
+            name: 'circle-bad-guy',
+            picked: false
+        },
+        {
+            name: 'player-001',
+            picked: false
+        },
+        {
+            name: 'player-067',
+            picked: false
+        },
+        {
+            name: 'player-456',
+            picked: false
+        },
     ];
 
     var shuffled = shuffleCards(cards);
