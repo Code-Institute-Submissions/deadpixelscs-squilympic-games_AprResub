@@ -527,4 +527,55 @@ footer {
         }
 
 }
+
+    /* media queries 1600px */
+    @media only screen and (min-width: 1600px) {
+
+        #logo {
+            font-size: 68px;
+            top: 10px;
+            margin-left: -1%;
+        }
+
+        #background-image {
+            margin-top: 38%;
+
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: -108%;
+            margin-left: 6%;
+            margin-right: 6%;
+        }
+
+        #difficulty-container {
+            font-size: 37px;
+            margin-top: -106%;
+            margin-left: 30%;
+        }
+
+        button {
+            width: 23%;
+            top: -40%;
+            right: 52%;
+        }
+
+        .grid {
+            margin-top: -88%;
+            margin-left: 32%;
+        }
+
+        h2 {
+            margin-top: -21%;
+            margin-right: 4%;
+        }
+
+        .social-networks {
+            margin-top: 22%;
+            margin-left: -6%;
+        }
+
+}
 }
