@@ -9,9 +9,9 @@ Squilympic Games is a 'Puzzle/Memory Game' based on the hit TV show Squid Game. 
 Existing Features
 
 * 4 Difficulty Settings - User can choose between 4 different difficulty settings to test their skills. Easy, Medium, Hard and Ultra.
-* Javascript Memory game built using html, css and javescript.
-* The game starts autmatically once the first tile is selected. Once all tiles have succesfully been matached the game is finished.
-* The game will end if you take to many turns and don't complete all the matched pairs. This depends on the difficulty setting.
+* Javascript Memory game built using html, css and javascript.
+* The game starts automatically once the first tile is selected. Once all tiles have successfully been matched, the game is finished.
+* The game will end if you take too many turns and don't complete matching all the pairs. This depends on the difficulty setting.
 * An alert will trigger at the end of each game, when you have run out of turns or how many tries it took you.
 * Social links at the bottom of the page to keep in touch.
 * Bug link at the bottom of the page to report any bugs in the game or on the website.
@@ -19,7 +19,7 @@ Existing Features
 * Restart button to shuffle cards and create a new game board.
 * Logo refreshes page.
 * Rules!!! Becasue we have to have rules right.
-* Wireframe deisgned in Balsamiq
+* Wireframe designed in Balsamiq.
 
 <img width="779" alt="Balsamiq" src="https://user-images.githubusercontent.com/82841138/143666692-6433e804-9e49-4798-94d1-324ed1e47a2c.png">
 ![macbook-mock-up](https://user-images.githubusercontent.com/82841138/143665656-979bf358-635a-4f44-9fda-28724075f527.png)
@@ -27,8 +27,8 @@ Existing Features
 Home Page
     * One page scrolling website made in html, css and javascript called Squilympic Games.
     * Users can scroll down the page and select the restart button to start playing the game.
-    * No annoying pop ups or windows just jump straight in and test your brains memory.
-    * UI and design inspired by th ehit TV show 'Squid Game'.
+    * No annoying pop ups or windows just jump straight in and test your brain memory.
+    * UI and design inspired by the hit TV show 'Squid Game'.
     * Works on all devices 1600px or below.
     * Footer section with social links to follow us and see what were up to in the world of games.
     * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
@@ -46,21 +46,23 @@ There are 18 tiles in total. 2 tiles featuring the exact same paired character o
 Features Left to Implement:
 
    * Support for larger screen sizes and improved responsiveness.
-   * Rule button using Sweet Alert 2
-   * Alert buttons all changed to new ones from Sweet Alert 2
+
 
 Future features to implement:
 
    * More playing tiles.
+   * Rule button using Sweet Alert 2
+   * Alert buttons all changed to new ones from Sweet Alert 2
+   * Audio.
    * Support for different orientations.
    * Apple watch version.
-   * New games all based on the tv show.
+   * New games all based on the TV show.
    
 ![macbook-pro-mocku-up](https://user-images.githubusercontent.com/82841138/143666643-518c8d8e-d9e8-4302-bab2-f024062d6f8a.png)
 
 Testing Problems:
 
-Lots of issues with responsive editing when working in Chrome Dev Tools. Looks ok in dev tools, but then when tested outside of dev tools, its not following the correct way or commands. 
+Lots of issues with responsive editing when working in Chrome Dev Tools. Looks ok in dev tools, but then when tested outside of dev tools, its not following the correct way or commands. This feels like a naggling issue for me now.
 Issues in GitPod servers going down causing loss of data and having to restart some parts of the development again. 
 
 Bugs:
@@ -94,10 +96,9 @@ The live link can be found here - https://code-institute-org.github.io/love-run
 
 Credits
 
-Stackoverflow and W3 mainly for everything. Bit of help in Slack, Youtube and . Videos from 'Code by Aria' proved a great resource. Advice from Mentor during 2 sessions. Game is based on the fictional TV series Squid Game on Netflix. Some references and inspiration in the design.
+Stackoverflow and W3 mainly for everything. Bit of help in Slack, Youtube and Videos from 'Code by Aria' proved a great resource. Advice from Mentor during 2 sessions. Game is based on the fictional TV series Squid Game on Netflix. Most references and inspiration in the design came from books.
 
-Need to update this section with references where I got my content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+![IMG_5451](https://user-images.githubusercontent.com/82841138/143667006-01283182-5a0d-4a80-b2ed-b255a66961d3.png)
 
 Content
 
