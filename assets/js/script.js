@@ -45,12 +45,12 @@ function createBoard(cards, main) {
 
                 // Did we win?
                 if (main.picked === (cards.length / 2)) {
-                    alert('congrats! only took you ' + main.attempts + ' tries');
+                    alert('Welldone!!! It only took you ' + main.attempts + ' tries');
                 }
             }
             // Are we done failing yet?
             if (main.attempts === main.maxAttempts) {
-                alert('you lose. you picked: ' + main.picked);
+                alert('Haha! You lost and only picked: ' + main.picked);
                 clearRound();
                 newRound();
             }
@@ -78,6 +78,7 @@ function clearRound() {
     grid.innerHTML = "";
 }
 
+
 function newRound(difficulty) {
     var main = {
         selectedCard: null,
@@ -87,9 +88,13 @@ function newRound(difficulty) {
         picked: 0,
         timeout: 500
     };
+
+    main.alt = "Difficulty settings and timeout of 500ms after selecting wrong card";
+
     var cards = getCards();
     createBoard(cards, main);
 }
+
 
 function flipBack(first, second, main) {
     setTimeout(() => {
@@ -184,6 +189,8 @@ function getCards() {
         },
     ];
 
+    cards.alt = "Playing card images";
+
     var shuffled = shuffleCards(cards);
     return shuffled;
 }
@@ -197,6 +204,8 @@ function shuffleCards(cards) {
         currentIndex--;
         [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
     }
+
+    randomIndex.alt = "Randomly shuffled cards  for everytime you play";
 
     return cards;
 }
