@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Memory puzzle game playable in the browser. Based on the hit Netflix tv show Squid Game.">
     <meta name="keywords" content="squid game, netflix, tv show, online, challenge, puzzle, memory, game">
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Squilympic Games</title>
@@ -15,35 +15,32 @@
 
 <body>
 
-    <div id="background-image">
-    </div>
-
     <header>
         <a href="index.html">
             <h1 id="logo">Squilympic Games</h1>
         </a>
         <nav>
-            <ul id="menu">
+            <ul id="home">
                 <li>
-                    <a href="index.html" class="active"></a>
+                    <a href="index.html" class="active">HOME</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div id="nav-bar">
-    </div>
-
     <div class="image-container">
         <img src="./assets/images/hero-image-2-1700px.png" alt="Squid Game image" class="hero-image">
     </div>
 
-    <div id="#">
+    <div id="header-two">
+        <h2>HOW TO PLAY</h2>
     </div>
 
-    <div>
-        <button aria-label="Restart the game button" onclick="startGame()">RESTART</button>
-        
+    <div id="rules">
+        <p>The rules are simple! 18 tiles in total. Select one to find it's pair. Once you have selected all 9 pairs,
+            you can go free!
+            <br>Failed? Just try again by hitting the Restart button.<br>Test your skills on Ultra difficulty!
+        </p>
     </div>
 
     <div id="difficulty-container">
@@ -53,13 +50,15 @@
         <label for="ultra"><input id="ultra" type="radio" name="difficulty" value="10" />Ultra</label>
     </div>
 
+    <div>
+        <button aria-label="Restart the game button" onclick="startGame()">RESTART</button>
+    </div>
+
+    <div class="grid">
+    </div>
+
     <div id="join-our-community">
         <h2>Join our community!<br>..if you survive!</h2>
-        <p>The rules are simple! 18 tiles in total. Select one to find it's pair. Once you have selected all 9 pairs,
-            you can go free!
-            <br>Fail and try again by hitting the Restart button. Test your wits on Ultra
-            difficulty!.....Muhahahahahaha..
-        </p>
     </div>
 
     <footer>
@@ -82,10 +81,6 @@
             </li>
         </ul>
     </footer>
-
-    <div class="grid">
-    </div>
-
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
