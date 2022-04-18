@@ -103,26 +103,101 @@ p {
 }
 
 
-
-
 /* restart button styling 
+
 
 button {
     background: rgb(237, 100, 100);
     color: white;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 51%;
+    height: 8%;
+    justify-content: center;
+    align-items: flex-start;
     border: none;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
-    font-family: 'Lato';
-    margin: 5px;
+    margin-left: 25%;
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
 }
 
+
 button:hover {
-    background: #110e22;
+    background: #005ef5;
+} */
+
+
+/* CSS */
+
+.button-game {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-left: 30%;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 30px 16px 20px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 50%;
 }
+
+
+
+.button-game:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -8px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+
+
+.button-game:main,
+.button-game:focus {
+  user-select: auto;
+}
+
+.button-game:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-game:disabled {
+  cursor: auto;
+}
+
 
 
 
