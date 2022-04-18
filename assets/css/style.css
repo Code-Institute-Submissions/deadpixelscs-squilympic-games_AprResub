@@ -23,11 +23,14 @@ body {
 
 
 #logo {
-
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
+    line-height: 1em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
     text-align: center;
-
+    white-space: nowrap;
 }
 
 a:link { text-decoration: none; }
