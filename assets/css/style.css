@@ -19,9 +19,6 @@ body {
 
 /* Logo */
 
-
-
-
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
     font-size: 2.5em;
@@ -34,6 +31,45 @@ body {
 }
 
 a:link { text-decoration: none; }
+
+
+/* hero image */
+
+.controls {
+    position: relative;
+}
+
+.hero-image {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.image-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2em;
+
+
+    /* animates zoom in on loading page banner */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-delay: 30ms;
+    animation-fill-mode: forwards;
+}
+
+/* creates zoom in for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
 
 
 
@@ -92,15 +128,6 @@ p {
     color: rgb(237, 100, 100);
 }
 
-#logo {
-    position: absolute;
-    font-family: 'Bungee', cursive, sans-serif;
-    font-size: 29px;
-    text-align: center;
-    top: 15px;
-    left: 50%;
-    transform: translate(-50%);
-}
 
 /* nav links 
 
@@ -137,43 +164,7 @@ p {
     background: url(../images/background-image-1700px.png) no-repeat center center;
 }
 
-/* hero 
-
-.controls {
-    position: relative;
-}
-
-.hero-image {
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.image-container {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 100px;
-
-
-    /* animates zoom in on loading page banner 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-delay: 30ms;
-    animation-fill-mode: forwards;
-}
-
-/* creates zoom in for hero image 
-@keyframes hero-zoom {
-    from {
-        transform: scale(1.1);
-    }
-
-    to {
-        transform: scale(1);
-    }
-}
+/* 
 
 /* Difficulty settings styling 
 
