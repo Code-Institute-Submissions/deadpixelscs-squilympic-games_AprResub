@@ -14,7 +14,7 @@ function createBoard(cards, main) {
                 return;
             }
 
-            // flip the card
+            // Flip the card
             card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-100px.png');
 
             // Any card selected?
@@ -205,7 +205,7 @@ function shuffleCards(cards) {
         [cards[currentIndex], cards[randomIndex]] = [cards[randomIndex], cards[currentIndex]];
     }
 
-    randomIndex.alt = "Randomly shuffled cards  for everytime you play";
+    randomIndex.alt = "Randomly shuffled cards for everytime you play";
 
     return cards;
 }

@@ -140,7 +140,7 @@ button:hover {
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: 'Press Start 2P', cursive, sans-serif;
@@ -148,11 +148,11 @@ button:hover {
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin-left: 30%;
-  margin: 0;
+  margin-left: 25%;
   outline: none;
   overflow: visible;
-  padding: 30px 16px 20px 16px;
+  padding: 40px 16px 30px 20px;
+  margin-bottom: 10%;
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -196,6 +196,16 @@ button:hover {
 
 .button-game:disabled {
   cursor: auto;
+}
+
+/* Game grid styling */
+
+.grid {
+    width: 300px;
+    height: 500px;
+    margin-left: 9.5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
