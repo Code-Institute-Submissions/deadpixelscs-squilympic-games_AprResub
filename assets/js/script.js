@@ -86,7 +86,7 @@ function newRound(difficulty) {
         attempts: 0,
         maxAttempts: difficulty,
         picked: 0,
-        timeout: 500
+        timeout: 100
     };
 
     main.alt = "Difficulty settings and timeout of 500ms after selecting wrong card";

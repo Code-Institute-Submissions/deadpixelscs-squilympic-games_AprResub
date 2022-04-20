@@ -203,10 +203,16 @@ button:hover {
 /* Game grid styling */
 
 .grid {
-    width: 499px;
-    margin: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.grid img {
+    width: 150px;
+
 }
 
 
@@ -219,7 +225,6 @@ button:hover {
     display: block;
     margin-left: 20%;
     margin-right: auto;
-    width: 50%;
 }
 
 */
