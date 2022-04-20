@@ -8,14 +8,14 @@ function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
     for (let i = 0; i < cards.length; i++) {
         let card = document.createElement('img');
-        card.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
+        card.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
         card.addEventListener('click', () => {
             if (cards[i].picked === true) {
                 return;
             }
 
             // Flip the card
-            card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-100px.png');
+            card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-250px.png');
 
             // Any card selected?
             if (main.selectedCard === null) {
@@ -98,17 +98,17 @@ function newRound(difficulty) {
 
 function flipBack(first, second, main) {
     setTimeout(() => {
-        first.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
-        second.setAttribute('src', 'assets/images/cards/tile-reverse-100px.png');
+        first.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
+        second.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
     }, main.timeout);
 }
 
 function flipWhite(first, second, main) {
     setTimeout(() => {
-        first.setAttribute('src', 'assets/images/cards/white-100px.png');
+        first.setAttribute('src', 'assets/images/cards/white-250px.png');
         first.click = undefined;
 
-        second.setAttribute('src', 'assets/images/cards/white-100px.png');
+        second.setAttribute('src', 'assets/images/cards/white-250px.png');
         second.click = undefined;
     }, main.timeout);
 }
