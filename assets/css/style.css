@@ -183,7 +183,6 @@ button:hover {
 }
 
 
-
 .button-game:main,
 .button-game:focus {
   user-select: auto;
@@ -200,15 +199,31 @@ button:hover {
 
 
 
+
 /* Game grid styling */
 
 .grid {
-    width: 100vw;
-    height: px;
+    width: 499px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/* Game grid styling */
+
+/*
+
+.grid img {
+    width: 30vw;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 50%;
+}
+
+*/
+
 
 
 
