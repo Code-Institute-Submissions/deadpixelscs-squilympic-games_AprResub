@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -202,12 +203,13 @@ button:hover {
 
 /* Game grid styling */
 
+
 .grid {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+    column-gap: 2px;
 }
 
 .grid img {
