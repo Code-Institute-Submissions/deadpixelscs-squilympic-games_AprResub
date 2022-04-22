@@ -240,6 +240,54 @@ button:hover {
     cursor: auto;
   }
 
+/* Back Button */
+
+.button-back {
+    appearance: button;
+    background-color: #d618d0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 20px;
+    margin-top: 10%;
+    margin-left: 3.5%;
+    margin-bottom: 20%;
+    outline: none;
+    overflow: visible;
+    padding: 40px 100px 40px 100px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  
+  
+  .button-back:main,
+  .button-back:focus {
+    user-select: auto;
+  }
+  
+  .button-back:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-back:disabled {
+    cursor: auto;
+  }
+
 
 /* Restart Button */
 
@@ -258,7 +306,7 @@ button:hover {
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin-left: 25%;
+  margin-left: 33%;
   outline: none;
   overflow: visible;
   padding: 40px 16px 30px 20px;
@@ -272,7 +320,7 @@ button:hover {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 50%;
+  max-width: 100%;
 }
 
 
