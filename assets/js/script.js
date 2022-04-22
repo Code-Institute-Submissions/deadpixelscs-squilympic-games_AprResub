@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 window.document.addEventListener('DOMContentLoaded', () => {
     //start the game immediately
-    startGame();
+    //startGame(); * only start round after selecting a difficulty setting *
 });
 
 function createBoard(cards, main) {
@@ -63,9 +63,11 @@ function createBoard(cards, main) {
 function startGame() {
     const difficulties = document.getElementsByName('difficulty');
     let difficulty = 40;
+    let difficultySelected = false;
     for (let i = 0; i < difficulties.length; i++) {
         if (difficulties[i].checked) {
             difficulty = parseInt(difficulties[i].value);
+            difficultySelected = true;
         }
     }
     clearRound();
