@@ -42,40 +42,9 @@ body {
     white-space: nowrap;
 }
 
+
 a:link { text-decoration: none; }
 
-/* nav links */
-
-#menu {
-    color: #ff00bf;
-    font-size: 1em;
-    letter-spacing: 1px;
-    padding: 5%;
-}
-
-#menu,
-#logo {
-    line-height: 1em;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    padding-right: 5%;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #ffffff;
-}
-
-.active {
-    border-bottom: 1px solid #edd496;
-}
 
 /* hero image */
 
@@ -146,38 +115,9 @@ p {
     margin-right: 6%;
 }
 
-
-/* restart button styling 
-
-
-button {
-    background: rgb(237, 100, 100);
-    color: white;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    width: 51%;
-    height: 8%;
-    justify-content: center;
-    align-items: flex-start;
-    border: none;
-    padding: 20px;
-    border-radius: 8px;
-    margin-left: 25%;
-    text-transform: uppercase;
-    cursor: pointer;
-    outline: none;
-}
-
-
-button:hover {
-    background: #005ef5;
-} */
-
-/* Rules Button */
+/* Rules Button styling */
 
 .button-rules {
-    appearance: button;
     background-color: #d618d0;
     border: solid transparent;
     border-radius: 16px;
@@ -202,48 +142,27 @@ button:hover {
     transform: translateZ(0);
     transition: filter .2s;
     user-select: none;
-    -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
     width: 50%;
   }
   
-  
-  
-  .button-rules:after {
-    background-clip: padding-box;
-    background-color: #6c061c;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -8px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  
-  .button-rules:main,
   .button-rules:focus {
     user-select: auto;
   }
   
   .button-rules:hover:not(:disabled) {
     filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
   }
   
   .button-rules:disabled {
     cursor: auto;
   }
 
-/* Back Button */
+
+/* Back Button styling */
 
 .button-back {
-    appearance: button;
     background-color: #d618d0;
     box-sizing: border-box;
     color: #ffffff;
@@ -266,22 +185,17 @@ button:hover {
     transform: translateZ(0);
     transition: filter .2s;
     user-select: none;
-    -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
     max-width: 100%;
   }
 
-  
-  
-  .button-back:main,
   .button-back:focus {
     user-select: auto;
   }
   
   .button-back:hover:not(:disabled) {
     filter: brightness(1.1);
-    -webkit-filter: brightness(1.1);
   }
   
   .button-back:disabled {
@@ -289,10 +203,9 @@ button:hover {
   }
 
 
-/* Restart Button */
+/* Restart Button styling */
 
 .button-game {
-  appearance: button;
   background-color: #1899D6;
   border: solid transparent;
   border-radius: 16px;
@@ -317,43 +230,25 @@ button:hover {
   transform: translateZ(0);
   transition: filter .2s;
   user-select: none;
-  -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
   max-width: 100%;
 }
 
-
-
-.button-game:after {
-  background-clip: padding-box;
-  background-color: #1CB0F6;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  bottom: -8px;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-
-.button-game:main,
 .button-game:focus {
   user-select: auto;
 }
 
 .button-game:hover:not(:disabled) {
   filter: brightness(1.1);
-  -webkit-filter: brightness(1.1);
 }
 
 .button-game:disabled {
   cursor: auto;
 }
+
+
+/* Rules box */
 
 .boxed {
     border: 10px solid rgb(255, 0, 200) ;
@@ -376,7 +271,6 @@ button:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     column-gap: 2px;
-    display: flexbox;
     padding: 2% !important;
     padding-top: 50%;
 }
@@ -391,183 +285,4 @@ img {
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
-    user-drag: none;
 }
-
-
-/* Game grid styling */
-
-/*
-
-.grid img {
-    width: 30vw;
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-}
-
-*/
-
-
-
-
-
-
-/* nav links 
-
-#menu {
-    font-size: 15px;
-    letter-spacing: 4px;
-    margin-top: -5.5%;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 2%;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #fffb00;
-}
-
-.active {
-    border-bottom: 1px solid #2e0000;
-}
-
-/* Background image 
-
-#background-image {
-    width: 100vw;
-    height: 100vh;
-    background: url(../images/background-image-1700px.png) no-repeat center center;
-}
-
-/* 
-
-/* Difficulty settings styling 
-
-#difficulty-container {
-    position: absolute;
-    font-size: 16px;
-    font-family: 'Bungee', cursive, sans-serif;
-    letter-spacing: 2px;
-    margin-top: -468%;
-    margin-left: 6%;
-}
-
-/* Restart button styling 
-
-button {
-    position: absolute;
-    font-size: 22px;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-weight: bold;
-    line-height: 70px;
-    width: 51%;
-    height: 8%;
-    top: 0;
-    right: 48%;
-    margin-top: 165%;
-    margin-right: -23%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Game grid styling 
-
-.grid {
-    margin-top: -387%;
-    margin-left: 9.5%;
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 300px;
-}
-
-/* Footer 
-
-footer {
-    height: 100px;
-}
-
-/* Footer header 
-
-#join-our-community h3 {
-    text-align: center;
-    margin-top: -60%;
-    line-height: 200%;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-/* Social media buttons 
-
-.social-networks {
-    font-size: 100%;
-    text-align: center;
-    margin-left: -4%;
-    padding: 10%;
-    margin-top: 74%;
-}
-
-.social-networks li {
-    display: inline;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 4.5;
-}
-
-.social-networks i {
-    font-size: 250%;
-    text-align: center;
-    margin-top: -200%;
-    margin-left: 5%;
-}
-
-/* Social media icons 
-
-.fab {
-    display: inline;
-    letter-spacing: 15px;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 2;
-}
-
-.fa-facebook {
-    text-align: center;
-    text-decoration: none;
-    color: #110e22;
-}
-
-.fa-instagram {
-    text-align: center;
-    text-decoration: none;
-    color: #110e22;
-}
-
-.fa-youtube {
-    text-align: center;
-    text-decoration: none;
-    color: #110e22;
-}
-
-.fa-bug {
-    text-align: center;
-    text-decoration: none;
-    color: #110e22;
-}
-
-*/
