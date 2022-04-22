@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 window.document.addEventListener('DOMContentLoaded', () => {
     //start the game immediately
-    //startGame(); * only start round after selecting a difficulty setting *
+    //startGame();
 });
 
 function createBoard(cards, main) {
@@ -50,9 +50,7 @@ function createBoard(cards, main) {
             }
             // Are we done failing yet?
             if (main.attempts === main.maxAttempts) {
-                alert('Haha! You lost and only picked: ' + main.picked);
-                clearRound();
-                newRound();
+                lostRound();
             }
 
         });
@@ -80,6 +78,15 @@ function clearRound() {
     grid.innerHTML = "";
 }
 
+function lostRound() {
+    clearRound();
+    const grid = document.querySelector('.grid');
+    for (let i = 0; i < 18; i++) {
+        let card = document.createElement('img')
+        card.setAttribute('src', 'assets/images/cards/eliminated-250px.png');
+        grid.appendChild(card);
+    }
+}
 
 function newRound(difficulty) {
     var main = {
