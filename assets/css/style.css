@@ -31,8 +31,51 @@ body {
     white-space: nowrap;
 }
 
+#logo h2 {
+    font-family: 'Bungee', cursive, sans-serif;
+    font-size: 2.5em;
+    line-height: 1em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
 a:link { text-decoration: none; }
 
+/* nav links */
+
+#menu {
+    color: #ff00bf;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 5%;
+}
+
+#menu,
+#logo {
+    line-height: 1em;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    padding-right: 5%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.active {
+    border-bottom: 1px solid #edd496;
+}
 
 /* hero image */
 
@@ -69,10 +112,10 @@ h2 {
     font-family: 'Bungee', cursive, sans-serif;
     font-size: 2.5em;
     line-height: 1em;
-    margin-top: 40px;
-    padding-bottom: 25px;
+    margin-top: 10px;
     text-align: center;
     white-space: nowrap;
+    color: #ffffff;
 }
 
 p {
@@ -264,7 +307,16 @@ button:hover {
   cursor: auto;
 }
 
-
+.boxed {
+    border: 10px solid rgb(255, 0, 200) ;
+    background: linear-gradient(360deg, rgba(28, 0, 0, 1) 30%, rgba(122, 0, 4, 0.95) 70%);
+    display: flex;
+    position: sticky;
+    margin-top: 4em;
+    padding: 10% 5% 10% 5%;
+    text-align: center;
+    line-height: 1.4em;
+  }
 
 
 /* Game grid styling */
