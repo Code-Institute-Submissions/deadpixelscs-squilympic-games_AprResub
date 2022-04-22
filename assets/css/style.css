@@ -131,8 +131,74 @@ button:hover {
     background: #005ef5;
 } */
 
+/* Rules Button */
 
-/* CSS */
+.button-rules {
+    appearance: button;
+    background-color: #d618d0;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin-left: 25%;
+    outline: none;
+    overflow: visible;
+    padding: 40px 16px 30px 20px;
+    margin-bottom: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 50%;
+  }
+  
+  
+  
+  .button-rules:after {
+    background-clip: padding-box;
+    background-color: #6c061c;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -8px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  
+  .button-rules:main,
+  .button-rules:focus {
+    user-select: auto;
+  }
+  
+  .button-rules:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-rules:disabled {
+    cursor: auto;
+  }
+
+
+/* Restart Button */
 
 .button-game {
   appearance: button;
@@ -208,8 +274,11 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2px;
+    grid-gap: 10px;
     column-gap: 2px;
+    display: flexbox;
+    padding: 2% !important;
+    padding-top: 50%;
 }
 
 .grid img {
