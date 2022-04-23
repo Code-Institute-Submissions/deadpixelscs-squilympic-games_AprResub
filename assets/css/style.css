@@ -460,3 +460,68 @@ img {
   
 }    
 
+@media only screen
+    and (min-width: 769px)
+    and (max-width: 1024px) {
+
+    html, body {
+      overflow-x: hidden;
+    }
+      
+    body {
+      position: relative
+    }
+
+    #logo {
+      font-size: 1.6em;
+      padding-left: 20%;
+      margin: 3px;
+    }
+
+    .hero-image {
+      width: 75vw;
+    }
+
+    .button-rules {
+      font-size: 4em;
+      padding: 6% 5% 5% 0%;
+      padding-left: 11%;
+      padding-right: 10%;
+      margin: 49px 10px 10px 82px;
+    }
+
+    #welcome.message {
+      font-size: 2em;
+      line-height: 38px;
+      padding-right: 37%;
+      padding-left: 5%;
+      margin-top: 48px;
+    }
+
+    #difficulty-container {
+      font-size: 3em;
+      padding: 3% 54% 8% 23%;
+    }
+
+    .big {
+      width: 3em;
+      height: 4em;
+  }
+
+    .button-game {
+      font-size: 4em;
+      padding: 6% 5% 5% 0%;
+      padding-left: 8%;
+      padding-right: 7%;
+      margin: -15px 10px 60px 42px;
+    }
+
+    #started.message {
+      font-size: 2em;
+      line-height: 41px;
+      margin-top: 1%;
+      margin-bottom: -7%;
+    }
+  
+}    
+
