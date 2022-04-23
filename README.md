@@ -45,13 +45,12 @@ Rules Page.
     * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
 
 ![iphone-mock-up](https://user-images.githubusercontent.com/82841138/164905034-91bae62c-0f25-412f-aea2-994bc9f364fa.jpg)
-![imac-mock-up](https://user-images.githubusercontent.com/82841138/143666022-b47e13d3-282d-4102-b5fb-8713bd5f611b.png)
 
 What to expect when a user clicks on one of the tiles?
 
 There are 18 tiles in total. 2 tiles featuring the exact same paired character or symbol from the TV show. Making a total of 9 different characters and   pairs. Once one tile is flipped, it stays open until the user selects another tile. If it's a match, then they will both turn green. If it's not a match, then they will both flip back around and the user tries again. The user hs a few milliseconds to memorize the tiles positions. If the user has exceeded their amount of tries, dependant on difficulty setting, then they will lose. The user keeps on going until they find all the tiles, or run out of tiles, whichever comes soonest. The user must then press the RESTART button to play again. Users will be notified of their results at the end of the round.
 
-![ipad-mock-up](https://user-images.githubusercontent.com/82841138/143666027-cffdcffe-50bf-4e4c-b8f6-b3bd010623ec.png)
+![squilympic-games-tablet-mock](https://user-images.githubusercontent.com/82841138/164911234-d202f307-b6b1-4d68-9086-de12931eeddf.jpg)
 
 Features Left to Implement:
 
@@ -83,12 +82,13 @@ Validator Testing
     * No errors were found when passing through the official (Jigsaw) validator.
 
 * JS 
-    * Few errors were found when passing through Beautyfy Tools validator.
-    * No errors were found when passing through esPrima.org validator.
+    * 2 errors were found when passing through Beautyfy Tools validator but not effecting anything.
+    * No errors were found when passing through esPrima.org validator. Syntactically valid.
 
 Unfixed Bugs
 
-Using vendor script to fix ghosting issue. This come sup as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
+Using vendor script to fix ghosting issue. This comes up as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
+Some responsive issues on smaller screen sizes. Optimised for 480px or above. 
 
 Deployment
 
