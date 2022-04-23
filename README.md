@@ -6,7 +6,7 @@ Squilympic Games is a 'Puzzle/Memory Game' based on the hit TV show Squid Game. 
 
 ![logo](https://user-images.githubusercontent.com/82841138/143665588-b7a5b23e-0638-4229-9bc3-056d96c81b40.png)
 
-Existing Features
+EXISTING FEATURES
 
 * Javascript Memory game built using html, css and javascript.
 * 18 tiles to choose from making 9 matching pairs.
@@ -30,7 +30,7 @@ Existing Features
 
 <img width="779" alt="Balsamiq" src="https://user-images.githubusercontent.com/82841138/143666692-6433e804-9e49-4798-94d1-324ed1e47a2c.png">
 
-Home Page
+HOME PAGE
 
 * One page scrolling website made in html, css and javascript called Squilympic Games.
 * Users can scroll down the page and select a difficulty setting. Pressing the RESTART button after this will start the game.
@@ -38,7 +38,7 @@ Home Page
 * UI and design inspired by the hit TV show 'Squid Game'.
 * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
     
-Rules Page.
+RULES PAGE
 
 * Users can scroll down the rules page to read the full game rules. Pressing the BACK button after this will return th euser to the home page.
 * No annoying pop ups or windows just jump straight in and test your brain memory.
@@ -65,16 +65,16 @@ Future features to implement:
    
 ![squilympic-games-macbook-mock](https://user-images.githubusercontent.com/82841138/164911185-6fc7f485-1ac5-4224-9815-b317b0717ded.jpg)
 
-Testing Problems:
+TESTING PROBLEMS:
 
 * Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
 * Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
 
-Bugs:
+BUGS:
 
 When switching to a new screen size, some strange image behaviours take place during the transition. It's ok when it reaches it's destination resolution though.
 
-Validator Testing
+VALIDATOR TESTING:
 
 HTML
 
@@ -89,12 +89,12 @@ JS
 * 2 errors were found when passing through Beautyfy Tools validator but not effecting anything.
 * No errors were found when passing through esPrima.org validator. Syntactically valid.
 
-Unfixed Bugs
+UNFIXED BUGS
 
-Using vendor script to fix ghosting issue. This comes up as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
-Some responsive issues on smaller screen sizes. Optimised for 480px or above. 
+* Using vendor script to fix ghosting issue. This comes up as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
+* Some responsive issues on smaller screen sizes. Optimised for 480px or above. 
 
-Deployment
+DEPLOYMENT
 
 The site was deployed to GitHub pages. The steps I did are as follows:
 * In the GitHub repository, navigate to the Settings tab.
@@ -102,13 +102,13 @@ The site was deployed to GitHub pages. The steps I did are as follows:
 * Once Pages has been selected, the page will be automatically to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/squilympic-games/index.html
 
-Credits
+CREDITS
 
 Stackoverflow and W3 mainly for everything. Bit of help in Slack, Youtube and Videos from 'Code by Aria' proved a great resource. Advice from Mentor during 2 sessions. Game is based on the fictional TV series Squid Game on Netflix. Most references and inspiration in the design came from books.
 
 ![IMG_5451](https://user-images.githubusercontent.com/82841138/143667006-01283182-5a0d-4a80-b2ed-b255a66961d3.png)
 
-Content
+CONTENT
 
 * The banner was found on Google Images and cropped in Photoshop.
 * All the images for the website were designed by deadpixelscs. Some elements in these images were pulled from Google searches.
