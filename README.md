@@ -29,7 +29,6 @@ Existing Features
 * Wireframe designed in Balsamiq.
 
 <img width="779" alt="Balsamiq" src="https://user-images.githubusercontent.com/82841138/143666692-6433e804-9e49-4798-94d1-324ed1e47a2c.png">
-![macbook-mock-up](https://user-images.githubusercontent.com/82841138/143665656-979bf358-635a-4f44-9fda-28724075f527.png)
 
 Home Page
     * One page scrolling website made in html, css and javascript called Squilympic Games.
