@@ -2,7 +2,17 @@
 window.document.addEventListener('DOMContentLoaded', () => {
     //start the game immediately
     //startGame();
+    showWelcome();
 });
+
+function hideAllMessages() {
+    const messages = document.getElementsByClassName('message');
+    for (let i = 0; i < messages.length; i++) {
+        messages[i].style.visibility = 'hidden';
+        messages[i].style.display = 'none';
+    }
+}
+
 
 function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
