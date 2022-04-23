@@ -23,9 +23,10 @@ body {
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
     color: #3400a6;
-    font-size: 1.6em;
-    padding-left: 5%;
-    margin-top: 4%;
+    font-size: 1em;
+    padding: 3% 0% 1% 5%;
+    margin: 2px;
+    float: left;
     line-height: 1em;
     position: absolute;
     text-align: center;
@@ -56,6 +57,7 @@ a:link { text-decoration: none; }
     justify-content: center;
     align-items: center;
     position: inherit;
+    padding: 0 0 0 0;
     margin-top: 20px;
 
     /* animates zoom in on loading page banner */
@@ -103,16 +105,16 @@ p {
 /* Difficulty settings styling */
 
 #difficulty-container {
-  font-size: 1.7em;
+  font-size: 4em;
   font-family: 'Bungee', cursive, sans-serif;
   color:#000000;
   letter-spacing: 2px;
-  padding: 10% 21% 10% 13%;
+  padding: 10% 21% 10% 20%;
 }
 
 .big {
-    width: 2em;
-    height: 2.5em;
+    width: 4em;
+    height: 5.5em;
     position: absolute;
     margin-right: 6%;
 }
@@ -120,95 +122,66 @@ p {
 /* Rules Button styling */
 
 .button-rules {
-    background-color: #d618d0;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.2em;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin-left: 25%;
-    outline: none;
-    overflow: visible;
-    padding-top: 7%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    padding-left: 7%;
-    margin-top: 10%;
-    margin-bottom: 1%;
-    margin-left: 12%;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    max-width: 60%;
-  }
-  
-  .button-rules:focus {
-    user-select: auto;
-  }
-  
-  .button-rules:hover:not(:disabled) {
-    filter: brightness(1.1);
-  }
-  
-  .button-rules:disabled {
-    cursor: auto;
-  }
+  background-color: #d618d0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5% 10% 4% 10%;
+  margin-top: 10%;
+  margin-left: 25%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive, sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+}
 
-  #welcome.message {
-    font-size: 0.6em;
-    line-height: 13px;
-    margin-top: 10%;
-    padding: 0% 10% 2% 5%;
-    color: #000000;
-    text-align: center;
-  }
+.button-rules:focus {
+  user-select: auto;
+}
+
+.button-rules:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.button-rules:disabled {
+  cursor: auto;
+}
+
+
+#welcome.message {
+  font-size: 1.5em;
+  line-height: 30px;
+  margin-top: 10%;
+  padding: 0% 10% 2% 10%;
+  color: #000000;
+  text-align: center;
+}
 
 
 /* Back Button styling */
 
 .button-back {
-    background-color: #d618d0;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.2em;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin-left: 25%;
-    outline: none;
-    overflow: visible;
-    padding-top: 2%;
-    padding-left: 1%;
-    margin-top: 7%;
-    margin-bottom: -1%;
-    margin-left: 2%;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    max-width: 60%;
+  background-color: #d618d0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5% 10% 4% 10%;
+  margin-top: 10%;
+  margin-left: 30%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive, sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
   }
 
   .button-back:focus {
@@ -228,37 +201,20 @@ p {
 
 .button-game {
   background-color: #3400a6;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  box-sizing: border-box;
-  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  color: white;
   cursor: pointer;
+  padding: 5% 10% 4% 10%;
+  margin-left: 20%;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
   font-family: 'Press Start 2P', cursive, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin-left: 25%;
-  outline: none;
-  overflow: visible;
-  padding-top: 7%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-  padding-left: 7%;
-  margin-top: 1%;
-  margin-bottom: 15%;
-  margin-left: 6%;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transform: translateZ(0);
-  transition: filter .2s;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  max-width: 60%;
 }
 
 .button-game:focus {
@@ -266,7 +222,7 @@ p {
 }
 
 .button-game:hover:not(:disabled) {
-  filter: brightness(1.1);
+  filter: brightness(1.5);
 }
 
 .button-game:disabled {
@@ -305,14 +261,15 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 8px;
+    grid-gap: 3px;
     column-gap: 0px;
-    padding: 3% !important;
-    margin-right: 31%;
+    padding: 3%;
+    margin-top: 10%;
+    margin-right: 0%;
 }
 
 .grid img {
-    width: 95%;
+    width: 97%;
 
 }
 
@@ -322,271 +279,3 @@ img {
     -moz-user-drag: none;
     -o-user-drag: none;
 }
-
-/* Media Queries */
-
-@media only screen
-    and (min-width: 319px) {
-
-    html, body {
-      overflow-x: hidden;
-    }
-      
-    body {
-      position: relative
-    }
-
-    #logo {
-      font-size: 1.2em;
-      padding-top: 1%;
-      padding-left: 2%;
-    }
-
-    #welcome.message {
-      padding-right: 36%;
-    }
-
-} 
-
-@media only screen
-    and (min-width: 320px)
-    and (max-width: 480px) {
-
-    html, body {
-      overflow-x: hidden;
-    }
-      
-    body {
-      position: relative
-    }
-
-    #logo {
-      font-size: 1.2em;
-      padding-left: 10%;
-      margin: 12px;
-    }
-
-    .hero-image {
-      width: 75vw;
-    }
-
-    .button-rules {
-      padding-left: 10%;
-      padding-right: 10%;
-      margin: 35px 10px 10px 70px;
-    }
-
-    #welcome.message {
-      padding-right: 37%;
-      padding-left: 5%;
-      margin-top: 17px;
-    }
-
-    #difficulty-container {
-      padding: 5% 46% 10% 19%;
-    }
-
-    .button-game {
-      padding-left: 10%;
-      padding-right: 10%;
-      margin: -15px 0px 35px 50px;
-    }
-
-    #started.message {
-      font-size: 1em;
-      line-height: 25px;
-      margin-top: 1%;
-      margin-bottom: -4%;
-    }
-
-}
-
-@media only screen
-    and (min-width: 481px)
-    and (max-width: 768px) {
-
-    html, body {
-      overflow-x: hidden;
-    }
-      
-    body {
-      position: relative
-    }
-
-    #logo {
-      font-size: 1.5em;
-      padding-left: 16%;
-      margin: 7px;
-    }
-
-    .hero-image {
-      width: 75vw;
-    }
-
-    .button-rules {
-      font-size: 2.5em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 11%;
-      padding-right: 10%;
-      margin: 49px 10px 10px 78px;
-    }
-
-    #welcome.message {
-      font-size: 1em;
-      line-height: 26px;
-      padding-right: 37%;
-      padding-left: 5%;
-      margin-top: 28px;
-    }
-
-    #difficulty-container {
-      padding: 3% 54% 8% 23%;
-    }
-
-    .button-game {
-      font-size: 2.5em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 11%;
-      padding-right: 10%;
-      margin: -22px 0px 34px 39px;
-    }
-
-    #started.message {
-      font-size: 1.2em;
-      line-height: 28px;
-      margin-top: 1%;
-      margin-bottom: -7%;
-    }
-  
-}    
-
-@media only screen
-    and (min-width: 769px)
-    and (max-width: 1024px) {
-
-    html, body {
-      overflow-x: hidden;
-    }
-      
-    body {
-      position: relative
-    }
-
-    #logo {
-      font-size: 1.6em;
-      padding-left: 20%;
-      margin: 3px;
-    }
-
-    .hero-image {
-      width: 75vw;
-    }
-
-    .button-rules {
-      font-size: 4em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 11%;
-      padding-right: 10%;
-      margin: 49px 10px 10px 82px;
-    }
-
-    #welcome.message {
-      font-size: 2em;
-      line-height: 38px;
-      padding-right: 37%;
-      padding-left: 5%;
-      margin-top: 48px;
-    }
-
-    #difficulty-container {
-      font-size: 3em;
-      padding: 3% 54% 8% 23%;
-    }
-
-    .big {
-      width: 3em;
-      height: 4em;
-  }
-
-    .button-game {
-      font-size: 4em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 8%;
-      padding-right: 7%;
-      margin: -15px 10px 60px 42px;
-    }
-
-    #started.message {
-      font-size: 2em;
-      line-height: 41px;
-      margin-top: 1%;
-      margin-bottom: -7%;
-    }
-  
-}    
-
-@media only screen
-    and (min-width: 1025px)
-    and (max-width: 1200px) {
-
-    html, body {
-      overflow-x: hidden;
-    }
-      
-    body {
-      position: relative
-    }
-
-    #logo {
-      font-size: 2.2em;
-      padding-left: 20%;
-      margin: -4px;
-    }
-
-    .hero-image {
-      width: 75vw;
-    }
-
-    .button-rules {
-      font-size: 4em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 6%;
-      padding-right: 5%;
-      margin: 74px 5px 10px 175px;
-    }
-
-    #welcome.message {
-      font-size: 2em;
-      line-height: 38px;
-      padding-right: 37%;
-      padding-left: 5%;
-      margin-top: 48px;
-    }
-
-    #difficulty-container {
-      font-size: 3em;
-      padding: 3% 54% 8% 23%;
-    }
-
-    .big {
-      width: 3em;
-      height: 4em;
-  }
-
-    .button-game {
-      font-size: 4em;
-      padding: 6% 5% 5% 0%;
-      padding-left: 6%;
-      padding-right: 5%;
-      margin: -35px 5px 45px 116px;
-    }
-
-    #started.message {
-      font-size: 2em;
-      line-height: 41px;
-      margin-top: 1%;
-      margin-bottom: -7%;
-    }
-  
-}  
-
