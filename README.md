@@ -63,7 +63,7 @@ Future features to implement:
    * Social media links
    * Bug reporting
    
-![macbook-pro-mock-up](https://user-images.githubusercontent.com/82841138/143666643-518c8d8e-d9e8-4302-bab2-f024062d6f8a.png)
+![squilympic-games-macbook-mock](https://user-images.githubusercontent.com/82841138/164911185-6fc7f485-1ac5-4224-9815-b317b0717ded.jpg)
 
 Testing Problems:
 
