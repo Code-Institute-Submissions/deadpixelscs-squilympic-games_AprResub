@@ -63,12 +63,12 @@ Future features to implement:
    * Social media links
    * Bug reporting
    
-![macbook-pro-mocku-up](https://user-images.githubusercontent.com/82841138/143666643-518c8d8e-d9e8-4302-bab2-f024062d6f8a.png)
+![macbook-pro-mock-up](https://user-images.githubusercontent.com/82841138/143666643-518c8d8e-d9e8-4302-bab2-f024062d6f8a.png)
 
 Testing Problems:
 
-Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
-Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
+   * Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
+   * Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
 
 Bugs:
 
@@ -82,7 +82,7 @@ Validator Testing
 * CSS
     * No errors were found when passing through the official (Jigsaw) validator.
 
-• JS 
+* JS 
     * Few errors were found when passing through Beautyfy Tools validator.
     * No errors were found when passing through esPrima.org validator.
 
