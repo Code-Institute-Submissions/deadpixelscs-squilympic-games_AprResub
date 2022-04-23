@@ -47,17 +47,17 @@ RULES PAGE
 
 ![iphone-mock-up](https://user-images.githubusercontent.com/82841138/164905034-91bae62c-0f25-412f-aea2-994bc9f364fa.jpg)
 
-What to expect when a user clicks on one of the tiles?
+WHAT TO EXPECT WHEN A USER CLICKS ON ONE OF THE TITLES?
 
 There are 18 tiles in total. 2 tiles featuring the exact same paired character or symbol from the TV show. Making a total of 9 different characters and   pairs. Once one tile is flipped, it stays open until the user selects another tile. If it's a match, then they will both turn green. If it's not a match, then they will both flip back around and the user tries again. The user hs a few milliseconds to memorize the tiles positions. If the user has exceeded their amount of tries, dependant on difficulty setting, then they will lose. The user keeps on going until they find all the tiles, or run out of tiles, whichever comes soonest. The user must then press the RESTART button to play again. Users will be notified of their results at the end of the round.
 
 ![squilympic-games-tablet-mock](https://user-images.githubusercontent.com/82841138/164911234-d202f307-b6b1-4d68-9086-de12931eeddf.jpg)
 
-Features Left to Implement:
+FEATURES LEFT TO IMPLEMENT:
 
 * Improved responsiveness.
 
-Future features to implement:
+FUTURE FEATURES TO IMPLEMENT:
 
 * More tiles to be added
 * Social media links
@@ -76,25 +76,25 @@ When switching to a new screen size, some strange image behaviours take place du
 
 VALIDATOR TESTING:
 
-HTML
+HTML -
 
 * No errors were returned when passing through the official W3C validator.
 
-CSS
+CSS -
 
 * No errors were found when passing through the official (Jigsaw) validator.
 
-JS 
+JS -
 
 * 2 errors were found when passing through Beautyfy Tools validator but not effecting anything.
 * No errors were found when passing through esPrima.org validator. Syntactically valid.
 
-UNFIXED BUGS
+UNFIXED BUGS:
 
 * Using vendor script to fix ghosting issue. This comes up as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
 * Some responsive issues on smaller screen sizes. Optimised for 480px or above. 
 
-DEPLOYMENT
+DEPLOYMENT:
 
 The site was deployed to GitHub pages. The steps I did are as follows:
 * In the GitHub repository, navigate to the Settings tab.
@@ -102,13 +102,13 @@ The site was deployed to GitHub pages. The steps I did are as follows:
 * Once Pages has been selected, the page will be automatically to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/squilympic-games/index.html
 
-CREDITS
+CREDITS:
 
-Stackoverflow and W3 mainly for everything. Bit of help in Slack, Youtube and Videos from 'Code by Aria' proved a great resource. Advice from Mentor during 2 sessions. Game is based on the fictional TV series Squid Game on Netflix. Most references and inspiration in the design came from books.
+Stackoverflow and W3 mainly for everything. Bit of help in Slack, Youtube and Videos from 'Code by Aria' proved a great resource. Advice from Mentor during 2 sessions. Game is based on the fictional TV series Squid Game on Netflix. Most references, tips, guides and inspiration in the design came from books.
 
 ![IMG_5451](https://user-images.githubusercontent.com/82841138/143667006-01283182-5a0d-4a80-b2ed-b255a66961d3.png)
 
-CONTENT
+CONTENT:
 
 * The banner was found on Google Images and cropped in Photoshop.
 * All the images for the website were designed by deadpixelscs. Some elements in these images were pulled from Google searches.
