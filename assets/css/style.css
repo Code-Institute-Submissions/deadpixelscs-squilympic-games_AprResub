@@ -230,10 +230,10 @@ p {
 }
 
 #started.message {
-  font-size: 0.6em;
-  line-height: 13px;
-  margin-top: -2%;
-  padding: 0% 37% 9% 5%;
+  font-size: 1.5em;
+  line-height: 30px;
+  margin-top: 15%;
+  padding: 0% 10% 2% 10%;
   color: #000000;
   text-align: center;
 }
