@@ -13,6 +13,13 @@ function hideAllMessages() {
     }
 }
 
+function showWelcome() {
+    hideAllMessages();
+    var message = document.getElementById('welcome');
+    message.style.visibility = 'hidden';
+    message.style.display = 'none';
+}
+
 
 function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
