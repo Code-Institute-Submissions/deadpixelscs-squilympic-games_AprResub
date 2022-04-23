@@ -44,7 +44,7 @@ Rules Page.
     * UI and design inspired by the hit TV show 'Squid Game'.
     * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
 
-![iphone-mock-up](https://user-images.githubusercontent.com/82841138/143666012-5ba9bc09-b792-4b74-9eeb-1a26bca3061a.png)
+![iphone-mock-up](https://workspace/squilympic-games/assets/images/squillympic-games-iphone-mock-up.jpg)
 ![imac-mock-up](https://user-images.githubusercontent.com/82841138/143666022-b47e13d3-282d-4102-b5fb-8713bd5f611b.png)
 
 What to expect when a user clicks on one of the tiles?
