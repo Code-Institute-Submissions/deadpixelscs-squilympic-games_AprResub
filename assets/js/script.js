@@ -16,10 +16,38 @@ function hideAllMessages() {
 function showWelcome() {
     hideAllMessages();
     var message = document.getElementById('welcome');
-    message.style.visibility = 'hidden';
-    message.style.display = 'none';
+    message.style.visibility = 'visible';
+    message.style.display = 'block';
 }
 
+function showStarted(tries) {
+    hideAllMessages();
+    var message = document.getElementById('started');
+    message.style.visibility = 'visible';
+    message.style.display = 'block';
+    var difficulty = document.getElementById('difficultytext');
+    difficulty.innerText = tries;
+}
+
+function showYouLost() {
+    hideAllMessages();
+    var message = document.getElementById('youlost');
+    message.style.visibility = 'visible';
+    message.style.display = 'block';
+}
+
+function showYouWon(tries) {
+    hideAllMessages();
+    var message = document.getElementById('youwon');
+    message.style.visibility = 'visible';
+    message.style.display = 'block';
+    refreshAttempts(tries);
+}
+
+function refreshAttempts(tries) {
+    var attempts = document.getElementById('difficultytext');
+    attempts.innerText = tries;
+}
 
 function createBoard(cards, main) {
     const grid = document.querySelector('.grid');
@@ -65,10 +93,11 @@ function createBoard(cards, main) {
                 main.selectedCard = null;
                 main.selectedCardElement = null;
                 main.attempts++;
+                refreshAttempts(main.maxAttempts - main.attempts);
 
                 // Did we win?
                 if (main.picked === (cards.length / 2)) {
-                    alert('Welldone!!! It only took you ' + main.attempts + ' tries');
+                    showYouWon(main.attempts); 
                 }
             }
             // Are we done failing yet?
@@ -93,6 +122,7 @@ function startGame() {
     }
     clearRound();
     newRound(difficulty);
+    showStarted(difficulty);
     return false;
 }
 
@@ -103,6 +133,7 @@ function clearRound() {
 
 function lostRound() {
     clearRound();
+    showYouLost();
     const grid = document.querySelector('.grid');
     for (let i = 0; i < 18; i++) {
         let card = document.createElement('img')
