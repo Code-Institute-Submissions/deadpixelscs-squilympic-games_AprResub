@@ -349,42 +349,55 @@ img {
 } 
 
 @media only screen
-    and (min-width: 428px) {
+    and (min-width: 321px)
+    and (max-width: 500px) {
 
     html, body {
       overflow-x: hidden;
     }
-    
+      
     body {
       position: relative
     }
 
     #logo {
-      padding-top: 0%;
-      padding-left: 50%;
+      font-size: 1.2em;
+      padding-left: 12%;
+      margin: 12px;
+    }
+
+    .hero-image {
+      width: 75vw;
     }
 
     .button-rules {
-      margin-left: 15%;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: 35px 10px 10px 70px;
     }
 
     #welcome.message {
-      padding-right: 31%;
+      padding-right: 37%;
+      padding-left: 5%;
+      margin-top: 17px;
     }
 
     #difficulty-container {
+      padding: 5% 46% 10% 19%;
     }
 
     .button-game {
-      margin-left: 3%;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: -15px 0px 35px 50px;
     }
 
     #started.message {
-      padding: 4% 18% 10% 5%;
-    }
-
-    .grid {
-      margin-right: 25%;
+      font-size: 1em;
+      line-height: 25px;
+      margin-top: 1%;
+      margin-bottom: -4%;
     }
 
 }
+
