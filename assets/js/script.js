@@ -110,12 +110,18 @@ function newRound(difficulty) {
     createBoard(cards, main);
 }
 
+function startFlipBack(first, second, main) {
+    mainFlip = () => { flipBack(first, second, main); };
+    main.flipTimeout = setTimeout(() => {
+        main.flip();
+    }, main.timeout);
+}
 
 function flipBack(first, second, main) {
-    setTimeout(() => {
-        first.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
-        second.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
-    }, main.timeout);
+    main.flip = undefined;
+    main.flipTimeout = undefined;
+    first.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
+    second.setAttribute('src', 'assets/images/cards/tile-reverse-250px.png');
 }
 
 function flipWhite(first, second, main) {
