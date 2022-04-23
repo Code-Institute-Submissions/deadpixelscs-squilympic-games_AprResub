@@ -23,7 +23,7 @@ body {
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
     color: #3400a6;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 3% 0% 1% 5%;
     margin: 2px;
     float: left;
@@ -129,7 +129,7 @@ p {
   cursor: pointer;
   padding: 5% 10% 4% 10%;
   margin-top: 10%;
-  margin-left: 25%;
+  margin-left: 24%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -172,8 +172,9 @@ p {
   color: white;
   cursor: pointer;
   padding: 5% 10% 4% 10%;
-  margin-top: 10%;
-  margin-left: 30%;
+  margin-top: 8%;
+  margin-left: 27%;
+  margin-bottom: 8%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -206,7 +207,7 @@ p {
   color: white;
   cursor: pointer;
   padding: 5% 10% 4% 10%;
-  margin-left: 20%;
+  margin-left: 18%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -247,7 +248,7 @@ p {
     background: linear-gradient(360deg, rgba(28, 0, 0, 1) 30%, rgba(122, 0, 4, 0.95) 70%);
     display: flex;
     position: sticky;
-    margin-top: 4em;
+    margin-top: 4%;
     padding: 10% 5% 10% 5%;
     text-align: center;
     line-height: 1.4em;
