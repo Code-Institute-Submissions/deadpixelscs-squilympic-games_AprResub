@@ -8,17 +8,24 @@ Squilympic Games is a 'Puzzle/Memory Game' based on the hit TV show Squid Game. 
 
 Existing Features
 
-* 4 Difficulty Settings - User can choose between 4 different difficulty settings to test their skills. Easy, Medium, Hard and Ultra.
 * Javascript Memory game built using html, css and javascript.
-* The game starts automatically once the first tile is selected. Once all tiles have successfully been matched, the game is finished.
-* The game will end if you take too many turns and don't complete matching all the pairs. This depends on the difficulty setting.
-* An alert will trigger at the end of each game, when you have run out of turns or how many tries it took you.
+* 18 tiles to choose from making 9 matching pairs.
+* 4 Difficulty Settings - User can choose between 4 different difficulty settings to test their skills. Easy, Medium, Hard and Ultra.
+* Each setting goes down in increments of 10 tries. So you get 40 tries on Easy, down to just 10 tries on Ultra difficulty.
+* Before the game starts we strongly advise reading the Rules.
+* Click the Rules button and a new page will open with the full game rules.
+* The user is required to select a difficulty setting before starting the game. If no difficulty is selected, the default is EASY mode, but only after RESTART has been pressed. 
+* The game starts only when the RESTART button is pressed.
+* Once all tiles have successfully been matched within the set amount of tries, the game is finished and the user wins the game.
+* The user will be eliminated if they go over the amount of tries available as per difficulty setting chosen.
+* Above the game grid the user can see in real-time how many tries they have remaining to complete the game.
+* A message will trigger at the end of each game to let the user know if they have either ran out of tries, and have been eliminated or if they completed it within the amount of tries. It will then tell the user how many tries it took them.
 * Social links at the bottom of the page to keep in touch.
 * Bug link at the bottom of the page to report any bugs in the game or on the website.
-* Optimised for mobile and screen sizes up to 1600px.
-* Restart button to shuffle cards and create a new game board.
-* Logo refreshes page.
-* Rules!!! Becasue we have to have rules right.
+* Compatibility issues with screen sizes below 480px. Will support screens up to 2560px wide.
+* RULES button will take th euser to the corresponding page.
+* BACK button will return the user back to the main game home page.
+* RESTART button will shuffle the cards and create a new game board.
 * Wireframe designed in Balsamiq.
 
 <img width="779" alt="Balsamiq" src="https://user-images.githubusercontent.com/82841138/143666692-6433e804-9e49-4798-94d1-324ed1e47a2c.png">
@@ -26,44 +33,42 @@ Existing Features
 
 Home Page
     * One page scrolling website made in html, css and javascript called Squilympic Games.
-    * Users can scroll down the page and select the restart button to start playing the game.
+    * Users can scroll down the page and select a difficulty setting. Pressing the RESTART button after this will start the game.
     * No annoying pop ups or windows just jump straight in and test your brain memory.
     * UI and design inspired by the hit TV show 'Squid Game'.
-    * Works on all devices 1600px or below.
-    * Footer section with social links to follow us and see what were up to in the world of games.
     * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
-    * Works best on 375px, 414px, 689px, 1024px, 1280px and 1600px screens.
     
+Rules Page.
+    * Users can scroll down the rules page to read the full game rules. Pressing the BACK button after this will return th euser to the home page.
+    * No annoying pop ups or windows just jump straight in and test your brain memory.
+    * UI and design inspired by the hit TV show 'Squid Game'.
+    * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
+
 ![iphone-mock-up](https://user-images.githubusercontent.com/82841138/143666012-5ba9bc09-b792-4b74-9eeb-1a26bca3061a.png)
 ![imac-mock-up](https://user-images.githubusercontent.com/82841138/143666022-b47e13d3-282d-4102-b5fb-8713bd5f611b.png)
 
 What to expect when a user clicks on one of the tiles?
 
-There are 18 tiles in total. 2 tiles featuring the exact same paired character or symbol from the TV show. Making a total of 9 different characters and         combinations. Once one tile is flipped, it stays open until the user selects another tile. If it's a match, then they will both turn white. If it's not a match, then they will both flip back around and the user tries again. If the user has exceeded their amount of turns, dependant on difficulty setting, then they will lose. The user keeps on going until they find all the tiles, or run out of tiles, whichever comes soonest. The user must press the Restart button 'AFTER' selecting a new difficulty setting for the changes to take effect. Users will be notified of their results at the end of the round.
+There are 18 tiles in total. 2 tiles featuring the exact same paired character or symbol from the TV show. Making a total of 9 different characters and   pairs. Once one tile is flipped, it stays open until the user selects another tile. If it's a match, then they will both turn green. If it's not a match, then they will both flip back around and the user tries again. The user hs a few milliseconds to memorize the tiles positions. If the user has exceeded their amount of tries, dependant on difficulty setting, then they will lose. The user keeps on going until they find all the tiles, or run out of tiles, whichever comes soonest. The user must then press the RESTART button to play again. Users will be notified of their results at the end of the round.
 
 ![ipad-mock-up](https://user-images.githubusercontent.com/82841138/143666027-cffdcffe-50bf-4e4c-b8f6-b3bd010623ec.png)
 
 Features Left to Implement:
 
-   * Support for larger screen sizes and improved responsiveness.
-
+   * Improved responsiveness.
 
 Future features to implement:
 
-   * More playing tiles.
-   * Rule button using Sweet Alert 2
-   * Alert buttons all changed to new ones from Sweet Alert 2
-   * Audio.
-   * Support for different orientations.
-   * Apple watch version.
-   * New games all based on the TV show.
+   * More tiles to be added
+   * Social media links
+   * Bug reporting
    
 ![macbook-pro-mocku-up](https://user-images.githubusercontent.com/82841138/143666643-518c8d8e-d9e8-4302-bab2-f024062d6f8a.png)
 
 Testing Problems:
 
-Lots of issues with responsive editing when working in Chrome Dev Tools. Looks ok in dev tools, but then when tested outside of dev tools, its not following the correct way or commands. This feels like a naggling issue for me now.
-Issues in GitPod servers going down causing loss of data and having to restart some parts of the development again. 
+Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
+Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
 
 Bugs:
 
@@ -83,8 +88,7 @@ Validator Testing
 
 Unfixed Bugs
 
-Responsive issues and getting the game on larger screens sizes proved problematic using media queries. I need to allocate more time into learning this and I have purchased various books to assist me. Unable to find answers I required online or Slack at this moment, nbut i'm sure they are out there. Not much in terms of lessons on this in the previous modules.
-More time, I had 10 days knocked off my chances to make this better due to our holiday being moved due to covid back in early October, SC was informed. Fulltime job, being a Dad of 2, husband and catching covid back in early Nov has'nt helped with time to research and learn more during the course. 
+Using vendor script to fix ghosting issue. This come sup as a warning in validation of JS but is perfectly normal and does not effect the game or design in anyway.
 
 Deployment
 
@@ -92,7 +96,7 @@ The site was deployed to GitHub pages. The steps I did are as follows:
 * In the GitHub repository, navigate to the Settings tab.
 * In the left pane, scroll down to Pages. 
 * Once Pages has been selected, the page will be automatically to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://code-institute-org.github.io/squilympic-games/index.html
 
 Credits
 
