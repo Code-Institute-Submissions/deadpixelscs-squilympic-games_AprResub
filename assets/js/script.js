@@ -14,6 +14,12 @@ function createBoard(cards, main) {
                 return;
             }
 
+            // Enforce flipback if we click a third card before timeout has happened
+            if (main.flip !==undefined) {
+                clearTimeout(main.flipTimeout);
+                main.flip();
+            }
+
             // Flip the card
             card.setAttribute('src', 'assets/images/cards/' + cards[i].name + '-250px.png');
 
@@ -36,7 +42,7 @@ function createBoard(cards, main) {
                     flipWhite(main.selectedCardElement, secondCardElement, main);
                 } else {
                     // Nope, picked the wrong one. Flip back
-                    flipBack(main.selectedCardElement, secondCardElement, main);
+                    startFlipBack(main.selectedCardElement, secondCardElement, main);
                 }
                 // Either way, clean up
                 main.selectedCard = null;
