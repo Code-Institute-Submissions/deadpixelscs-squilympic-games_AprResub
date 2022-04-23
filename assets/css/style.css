@@ -24,26 +24,13 @@ body {
   font-family: 'Bungee', cursive, sans-serif;
   color: #3400a6;
   font-size: 1.2em;
-  padding: 3% 0% 1% 5%;
-  margin: 2px;
+  padding: 25px 0px 0px 25px;
   float: left;
   line-height: 1em;
   position: absolute;
   text-align: center;
   white-space: nowrap;
 }
-
-#logo h2 {
-  font-family: 'Bungee', cursive, sans-serif;
-  font-size: 2.5em;
-  line-height: 1em;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-  white-space: nowrap;
-}
-
 
 a:link {
   text-decoration: none;
@@ -59,8 +46,8 @@ a:link {
   justify-content: center;
   align-items: center;
   position: inherit;
-  padding: 0 0 0 0;
-  margin-top: 20px;
+  padding: 3% 0 0 0;
+  margin-top: 15px;
 
   /* animates zoom in on loading page banner */
   animation-name: hero-zoom;
@@ -305,8 +292,12 @@ img {
 @media only screen and (min-width: 480px) and (max-width: 499px) {
 
   #logo {
-    padding: 3% 0% 1% 5%;
+    font-family: 'Bungee', cursive, sans-serif;
+    color: #3400a6;
+    font-size: 1.2em;
+    padding: 22px 0px 0px 25px;
   }
+
 
   .button-rules {
     margin-left: 22%;
@@ -334,7 +325,7 @@ img {
     grid-gap: 9px;
     column-gap: 2px;
     margin-right: 3%;
-    margin-left: 1%;
+    margin-left: 3%;
   }
 
 }
@@ -342,10 +333,14 @@ img {
 @media only screen and (min-width: 500px) and (max-width: 649px) {
 
   #logo {
-    padding: 3% 0% 1% 5%;
+    font-family: 'Bungee', cursive, sans-serif;
+    color: #3400a6;
+    font-size: 1.2em;
+    padding: 22px 0px 0px 25px;
   }
 
   .button-rules {
+    margin-top: 10%;
     margin-left: 25%;
   }
 
@@ -354,7 +349,7 @@ img {
   }
 
   #welcome.message {
-    padding-right: 10%;
+    padding-right: 8%;
   }
 
   #difficulty-container {
@@ -379,18 +374,16 @@ img {
     grid-gap: 10px;
     column-gap: 2px;
     margin-right: 1%;
-    margin-left: 1%;
+    margin-left: 3%;
   }
 
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {
 
-  #logo {
-    padding: 2% 0% 1% 5%;
-  }
 
   .button-rules {
+    margin-top: 8%;
     margin-left: 30%;
   }
 
@@ -435,11 +428,8 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 
-  #logo {
-    padding: 2% 0% 1% 3%;
-  }
-
   .button-rules {
+    margin-top: 6%;
     margin-left: 30%;
   }
 
@@ -488,10 +478,12 @@ img {
 @media only screen and (min-width: 900px) and (max-width: 1079px) {
 
   #logo {
-    padding: 1.5% 0% 1% 3%;
+    font-size: 1.6em;
+    padding: 25px 0px 0px 25px;
   }
 
   .button-rules {
+    margin-top: 5%;
     margin-left: 32%;
   }
 
@@ -546,10 +538,12 @@ img {
 @media only screen and (min-width: 1080px) and (max-width: 1199px) {
 
   #logo {
-    padding: 1.5% 0% 1% 3%;
+    font-size: 1.8em;
+    padding: 27px 0px 0px 25px;
   }
 
   .button-rules {
+    margin-top: 5%;
     margin-left: 32%;
   }
 
@@ -602,12 +596,15 @@ img {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
 
+
   #logo {
-    padding: 1% 0% 1% 3%;
+    font-size: 1.9em;
+    padding: 28px 0px 0px 25px;
   }
 
   .button-rules {
     font-size: 3em;
+    margin-top: 5%;
     margin-left: 33%;
   }
 
@@ -663,11 +660,13 @@ img {
 @media only screen and (min-width: 1600px) and (max-width: 1792px) {
 
   #logo {
-    padding: 1% 0% 1% 3%;
+    font-size: 2em;
+    padding: 31px 0px 0px 25px;
   }
 
   .button-rules {
     font-size: 3em;
+    margin-top: 5%;
     margin-left: 33%;
   }
 
@@ -710,12 +709,11 @@ img {
     column-gap: 1px;
     margin-top: 7%;
     margin-right: -5%;
-    margin-left: -4%;
+    margin-left: -2%;
   }
 
   .grid img {
     width: 95%;
-
   }
 
 }
@@ -723,10 +721,12 @@ img {
 @media only screen and (min-width: 1793px) and (max-width: 2560px) {
 
   #logo {
-    padding: 1% 0% 1% 3%;
+    font-size: 2.1em;
+    padding: 32px 0px 0px 25px;
   }
 
   .button-rules {
+    margin-top: 6%;
     font-size: 3em;
     margin-left: 33%;
   }
