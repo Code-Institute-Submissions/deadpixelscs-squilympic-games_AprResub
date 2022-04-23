@@ -31,17 +31,19 @@ Existing Features
 <img width="779" alt="Balsamiq" src="https://user-images.githubusercontent.com/82841138/143666692-6433e804-9e49-4798-94d1-324ed1e47a2c.png">
 
 Home Page
-    * One page scrolling website made in html, css and javascript called Squilympic Games.
-    * Users can scroll down the page and select a difficulty setting. Pressing the RESTART button after this will start the game.
-    * No annoying pop ups or windows just jump straight in and test your brain memory.
-    * UI and design inspired by the hit TV show 'Squid Game'.
-    * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
+
+* One page scrolling website made in html, css and javascript called Squilympic Games.
+* Users can scroll down the page and select a difficulty setting. Pressing the RESTART button after this will start the game.
+* No annoying pop ups or windows just jump straight in and test your brain memory.
+* UI and design inspired by the hit TV show 'Squid Game'.
+* Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
     
 Rules Page.
-    * Users can scroll down the rules page to read the full game rules. Pressing the BACK button after this will return th euser to the home page.
-    * No annoying pop ups or windows just jump straight in and test your brain memory.
-    * UI and design inspired by the hit TV show 'Squid Game'.
-    * Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
+
+* Users can scroll down the rules page to read the full game rules. Pressing the BACK button after this will return th euser to the home page.
+* No annoying pop ups or windows just jump straight in and test your brain memory.
+* UI and design inspired by the hit TV show 'Squid Game'.
+* Assets, backgrounds, banners, logos and tiles call created in Adobe Illustrator and Adobe Photoshop by deadpixels.cs
 
 ![iphone-mock-up](https://user-images.githubusercontent.com/82841138/164905034-91bae62c-0f25-412f-aea2-994bc9f364fa.jpg)
 
@@ -53,20 +55,20 @@ There are 18 tiles in total. 2 tiles featuring the exact same paired character o
 
 Features Left to Implement:
 
-   * Improved responsiveness.
+* Improved responsiveness.
 
 Future features to implement:
 
-   * More tiles to be added
-   * Social media links
-   * Bug reporting
+* More tiles to be added
+* Social media links
+* Bug reporting
    
 ![squilympic-games-macbook-mock](https://user-images.githubusercontent.com/82841138/164911185-6fc7f485-1ac5-4224-9815-b317b0717ded.jpg)
 
 Testing Problems:
 
-   * Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
-   * Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
+* Ability to select 3 cards in quick succession instead of 2 *FIXED 22/04/2022*
+* Ghosting of the tiles when holding finger on them *FIXED 21/04/2022*
 
 Bugs:
 
@@ -74,15 +76,18 @@ When switching to a new screen size, some strange image behaviours take place du
 
 Validator Testing
 
-* HTML
-    * No errors were returned when passing through the official W3C validator.
+HTML
 
-* CSS
-    * No errors were found when passing through the official (Jigsaw) validator.
+* No errors were returned when passing through the official W3C validator.
 
-* JS 
-    * 2 errors were found when passing through Beautyfy Tools validator but not effecting anything.
-    * No errors were found when passing through esPrima.org validator. Syntactically valid.
+CSS
+
+* No errors were found when passing through the official (Jigsaw) validator.
+
+JS 
+
+* 2 errors were found when passing through Beautyfy Tools validator but not effecting anything.
+* No errors were found when passing through esPrima.org validator. Syntactically valid.
 
 Unfixed Bugs
 
