@@ -15,7 +15,7 @@ function createBoard(cards, main) {
             }
 
             // Enforce flipback if we click a third card before timeout has happened
-            if (main.flip !==undefined) {
+            if (main.flip !== undefined) {
                 clearTimeout(main.flipTimeout);
                 main.flip();
             }
@@ -111,7 +111,7 @@ function newRound(difficulty) {
 }
 
 function startFlipBack(first, second, main) {
-    mainFlip = () => { flipBack(first, second, main); };
+    main.flip = () => { flipBack(first, second, main); };
     main.flipTimeout = setTimeout(() => {
         main.flip();
     }, main.timeout);
