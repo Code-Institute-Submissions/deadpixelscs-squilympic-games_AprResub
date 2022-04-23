@@ -22,11 +22,12 @@ body {
 
 #logo {
     font-family: 'Bungee', cursive, sans-serif;
-    font-size: 2.5em;
+    color: #3400a6;
+    font-size: 1.6em;
+    padding-left: 7%;
+    margin-top: 4%;
     line-height: 1em;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 50%);
     text-align: center;
     white-space: nowrap;
 }
@@ -55,7 +56,7 @@ a:link { text-decoration: none; }
     justify-content: center;
     align-items: center;
     position: inherit;
-    margin-top: 65px;
+    margin-top: 20px;
 
     /* animates zoom in on loading page banner */
     animation-name: hero-zoom;
@@ -102,15 +103,16 @@ p {
 /* Difficulty settings styling */
 
 #difficulty-container {
-    font-size: 1.4em;
-    font-family: 'Bungee', cursive, sans-serif;
-    letter-spacing: 2px;
-    padding: 10% 5% 10% 7%;
+  font-size: 1.7em;
+  font-family: 'Bungee', cursive, sans-serif;
+  color:#000000;
+  letter-spacing: 2px;
+  padding: 10% 20% 15% 25%;
 }
 
 .big {
     width: 2em;
-    height: 2em;
+    height: 2.5em;
     position: absolute;
     margin-right: 6%;
 }
@@ -127,15 +129,20 @@ p {
     cursor: pointer;
     display: inline-block;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
     margin-left: 25%;
     outline: none;
     overflow: visible;
-    padding: 40px 16px 30px 20px;
-    margin-bottom: 10%;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 9%;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;
@@ -144,7 +151,8 @@ p {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 50%;
+    width: 80vw;
+    max-width: 80%;
   }
   
   .button-rules:focus {
@@ -159,26 +167,40 @@ p {
     cursor: auto;
   }
 
+  #welcome.message {
+    font-size: 1.2em;
+    line-height: 24px;
+    margin-top: 10%;
+    padding: 2% 5% 2% 5%;
+    color: #000000;
+    text-align: center;
+  }
+
 
 /* Back Button styling */
 
 .button-back {
     background-color: #d618d0;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.5em;
+    font-size: 0.7em;
     font-weight: 700;
-    letter-spacing: 8px;
+    letter-spacing: .8px;
     line-height: 20px;
-    margin-top: 10%;
-    margin-left: 3.5%;
-    margin-bottom: 20%;
+    margin-left: 25%;
     outline: none;
     overflow: visible;
-    padding: 40px 100px 40px 100px;
+    padding-top: 2%;
+    padding-left: 1%;
+    margin-top: 7%;
+    margin-bottom: -1%;
+    margin-left: 9%;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;
@@ -187,7 +209,8 @@ p {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    max-width: 100%;
+    width: 32vw;
+    max-width: 50%;
   }
 
   .button-back:focus {
@@ -206,24 +229,29 @@ p {
 /* Restart Button styling */
 
 .button-game {
-  background-color: #1899D6;
+  background-color: #3400a6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #000000;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: 'Press Start 2P', cursive, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin-left: 33%;
+  margin-left: 25%;
   outline: none;
   overflow: visible;
-  padding: 40px 16px 30px 20px;
+  padding-top: 8%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 6%;
+  margin-top: -5%;
   margin-bottom: 10%;
+  margin-left: 9%;
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -232,7 +260,8 @@ p {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  max-width: 100%;
+  width: 80vw;
+  max-width: 80%;
 }
 
 .button-game:focus {
@@ -246,6 +275,17 @@ p {
 .button-game:disabled {
   cursor: auto;
 }
+
+#started.message {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 34px;
+  margin-top: 0%;
+  padding: 2% 5% 10% 5%;
+  color: #000000;
+  text-align: center;
+}
+
 
 
 /* Rules box */
@@ -269,14 +309,14 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    column-gap: 2px;
+    grid-gap: 3px;
+    column-gap: 0px;
     padding: 2% !important;
     padding-top: 50%;
 }
 
 .grid img {
-    width: 150px;
+    width: 97%;
 
 }
 

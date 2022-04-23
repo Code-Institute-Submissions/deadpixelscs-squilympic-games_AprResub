@@ -40,6 +40,11 @@
         <button class="button-rules" aria-label="Rules button" onclick="window.location.href='rules.html';">RULES</button>
     </div>
 
+    <div id="messages-container">
+        <div class="message" id="welcome">Welcome!<br><br>To start the game, select a difficulty level and then click on the RESTART button</div>
+        <div class="message" id="youlost">Oh no you lost!!! Press RESTART button to try again?</div>
+    </div>
+
     <div id="difficulty-container">
         <label for="easy"><input id="easy" type="radio" class="big" name="difficulty" value="40" />&nbsp;&nbsp;&nbsp;&nbsp;Easy</label>
         <label for="med"><input id="med" type="radio" class="big" name="difficulty" value="30" />&nbsp;&nbsp;&nbsp;&nbsp;Med</label>
@@ -52,9 +57,7 @@
     </div>
 
     <div id="messages-container">
-        <div class="message" id="welcome">Welcome! To start the game, select a difficulty level and click on the RESTART button</div>
-        <div class="message" id="started">Started the game, you have <span id="difficultytext"></span> tries</div>
-        <div class="message" id="youlost">Oh no you lost!!! Press RESTART button to try again?</div>
+        <div class="message" id="started">Started the game<br>You have <span id="difficultytext"></span> tries</div>
         <div class="message" id="youwon">Congratulations, you won! It only took you <span id="attempts"></span> tries! Press RESTART for another go and try a harder difficulty level</div>
     </div>
 
