@@ -24,7 +24,7 @@ body {
     font-family: 'Bungee', cursive, sans-serif;
     color: #3400a6;
     font-size: 1.6em;
-    padding-left: 7%;
+    padding-left: 5%;
     margin-top: 4%;
     line-height: 1em;
     position: absolute;
@@ -129,20 +129,20 @@ p {
     cursor: pointer;
     display: inline-block;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
     margin-left: 25%;
     outline: none;
     overflow: visible;
-    padding-top: 8%;
-    padding-right: 10%;
+    padding-top: 7%;
+    padding-right: 5%;
     padding-bottom: 5%;
-    padding-left: 13%;
+    padding-left: 7%;
     margin-top: 10%;
     margin-bottom: 1%;
-    margin-left: 9%;
+    margin-left: 12%;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;
@@ -151,7 +151,6 @@ p {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 80vw;
     max-width: 80%;
   }
   
@@ -171,7 +170,7 @@ p {
     font-size: 1.2em;
     line-height: 24px;
     margin-top: 10%;
-    padding: 2% 5% 2% 5%;
+    padding: 0% 10% 2% 5%;
     color: #000000;
     text-align: center;
   }
@@ -238,20 +237,20 @@ p {
   cursor: pointer;
   display: inline-block;
   font-family: 'Press Start 2P', cursive, sans-serif;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
   margin-left: 25%;
   outline: none;
   overflow: visible;
-  padding-top: 8%;
-  padding-right: 10%;
+  padding-top: 7%;
+  padding-right: 5%;
   padding-bottom: 5%;
-  padding-left: 6%;
-  margin-top: -5%;
-  margin-bottom: 10%;
-  margin-left: 9%;
+  padding-left: 7%;
+  margin-top: 1%;
+  margin-bottom: 15%;
+  margin-left: 4%;
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -260,7 +259,6 @@ p {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 80vw;
   max-width: 80%;
 }
 
@@ -311,8 +309,8 @@ p {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
     column-gap: 0px;
-    padding: 2% !important;
-    padding-top: 50%;
+    padding: 3% !important;
+    margin-right: 22%;
 }
 
 .grid img {
@@ -326,3 +324,38 @@ img {
     -moz-user-drag: none;
     -o-user-drag: none;
 }
+
+/* Media Queries */
+
+@media only screen
+    and (min-width: 320px) {
+
+    #logo {
+      font-size: 1.2em;
+      padding-top: 1%;
+      padding-left: 6%;
+  }
+    }
+
+    #welcome.message {
+      padding-right: 27%;
+    }
+
+    #difficulty-container {
+      padding-right: 24%;
+      padding-left: 20%;
+    }
+
+    .button-game {
+      width: 69%;
+      padding-left: 7%;
+    }
+
+    .grid {
+
+    }
+
+    #started.message {
+      padding: 4% 18% 10% 5%;
+    }
+  }
