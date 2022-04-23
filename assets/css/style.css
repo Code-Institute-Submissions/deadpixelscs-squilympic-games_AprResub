@@ -107,7 +107,7 @@ p {
   font-family: 'Bungee', cursive, sans-serif;
   color:#000000;
   letter-spacing: 2px;
-  padding: 10% 20% 15% 25%;
+  padding: 10% 21% 10% 13%;
 }
 
 .big {
@@ -129,7 +129,7 @@ p {
     cursor: pointer;
     display: inline-block;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
@@ -151,7 +151,7 @@ p {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    max-width: 80%;
+    max-width: 60%;
   }
   
   .button-rules:focus {
@@ -167,8 +167,8 @@ p {
   }
 
   #welcome.message {
-    font-size: 1.2em;
-    line-height: 24px;
+    font-size: 0.6em;
+    line-height: 13px;
     margin-top: 10%;
     padding: 0% 10% 2% 5%;
     color: #000000;
@@ -188,7 +188,7 @@ p {
     cursor: pointer;
     display: inline-block;
     font-family: 'Press Start 2P', cursive, sans-serif;
-    font-size: 0.7em;
+    font-size: 1.2em;
     font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
@@ -199,7 +199,7 @@ p {
     padding-left: 1%;
     margin-top: 7%;
     margin-bottom: -1%;
-    margin-left: 9%;
+    margin-left: 2%;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;
@@ -208,8 +208,7 @@ p {
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 32vw;
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .button-back:focus {
@@ -237,7 +236,7 @@ p {
   cursor: pointer;
   display: inline-block;
   font-family: 'Press Start 2P', cursive, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
@@ -250,7 +249,7 @@ p {
   padding-left: 7%;
   margin-top: 1%;
   margin-bottom: 15%;
-  margin-left: 4%;
+  margin-left: 6%;
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -259,7 +258,7 @@ p {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .button-game:focus {
@@ -275,11 +274,10 @@ p {
 }
 
 #started.message {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  line-height: 34px;
-  margin-top: 0%;
-  padding: 2% 5% 10% 5%;
+  font-size: 0.6em;
+  line-height: 13px;
+  margin-top: -2%;
+  padding: 0% 37% 9% 5%;
   color: #000000;
   text-align: center;
 }
@@ -310,11 +308,11 @@ p {
     grid-gap: 3px;
     column-gap: 0px;
     padding: 3% !important;
-    margin-right: 22%;
+    margin-right: 31%;
 }
 
 .grid img {
-    width: 97%;
+    width: 95%;
 
 }
 
@@ -330,32 +328,63 @@ img {
 @media only screen
     and (min-width: 320px) {
 
+    html, body {
+      overflow-x: hidden;
+    }
+      
+    body {
+      position: relative
+    }
+
     #logo {
       font-size: 1.2em;
       padding-top: 1%;
-      padding-left: 6%;
-  }
+      padding-left: 2%;
     }
 
     #welcome.message {
-      padding-right: 27%;
+      padding-right: 36%;
+    }
+
+} 
+
+@media only screen
+    and (min-width: 428px) {
+
+    html, body {
+      overflow-x: hidden;
+    }
+    
+    body {
+      position: relative
+    }
+
+    #logo {
+      padding-top: 0%;
+      padding-left: 50%;
+    }
+
+    .button-rules {
+      margin-left: 15%;
+    }
+
+    #welcome.message {
+      padding-right: 31%;
     }
 
     #difficulty-container {
-      padding-right: 24%;
-      padding-left: 20%;
     }
 
     .button-game {
-      width: 69%;
-      padding-left: 7%;
-    }
-
-    .grid {
-
+      margin-left: 3%;
     }
 
     #started.message {
       padding: 4% 18% 10% 5%;
     }
-  }
+
+    .grid {
+      margin-right: 25%;
+    }
+
+}
