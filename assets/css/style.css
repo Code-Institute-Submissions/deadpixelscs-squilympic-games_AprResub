@@ -305,7 +305,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 3px;
+    grid-gap: 8px;
     column-gap: 0px;
     padding: 3% !important;
     margin-right: 31%;
@@ -400,4 +400,63 @@ img {
     }
 
 }
+
+@media only screen
+    and (min-width: 481px)
+    and (max-width: 768px) {
+
+    html, body {
+      overflow-x: hidden;
+    }
+      
+    body {
+      position: relative
+    }
+
+    #logo {
+      font-size: 1.5em;
+      padding-left: 16%;
+      margin: 7px;
+    }
+
+    .hero-image {
+      width: 75vw;
+    }
+
+    .button-rules {
+      font-size: 2.5em;
+      padding: 6% 5% 5% 0%;
+      padding-left: 11%;
+      padding-right: 10%;
+      margin: 49px 10px 10px 78px;
+    }
+
+    #welcome.message {
+      font-size: 1em;
+      line-height: 26px;
+      padding-right: 37%;
+      padding-left: 5%;
+      margin-top: 28px;
+    }
+
+    #difficulty-container {
+      padding: 3% 54% 8% 23%;
+    }
+
+    .button-game {
+      font-size: 2.5em;
+      padding: 6% 5% 5% 0%;
+      padding-left: 11%;
+      padding-right: 10%;
+      margin: -22px 0px 34px 39px;
+    }
+
+    #started.message {
+      font-size: 1.2em;
+      line-height: 28px;
+      margin-top: 1%;
+      margin-bottom: -7%;
+    }
+  
+}    
 
